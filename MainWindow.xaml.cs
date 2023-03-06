@@ -29,14 +29,14 @@ namespace AutoRuScrapper
         private void CreateItem_Click(object sender, RoutedEventArgs e)
         {
             // Создаем новый элемент, используя шаблон
-            DataTemplate template = (DataTemplate)FindResource("MyItemTemplate");
+            DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
             FrameworkElement newItem = (FrameworkElement)template.LoadContent();
 
             // Создаем новый экземпляр объекта
             ItemParse item = new();
 
             // Находим нужный контейнер на форме, в который будем добавлять новый элемент
-            Grid gridContainer = (Grid)FindName("TestGrid");
+            Grid gridContainer = (Grid)FindName("ParsingListGrid");
 
             // Добавляем новый элемент в контейнер
             gridContainer.Children.Add(newItem);

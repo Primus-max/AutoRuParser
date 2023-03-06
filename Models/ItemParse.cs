@@ -11,15 +11,15 @@ namespace AutoRuScrapper.Models
         public int Id { get; set; }
         public string Marka { get; set; }
         public string Model { get; set; }
-        public DateTime DateRevision { get; set; }
+        public DateTime YearOfProduction { get; set; }
 
         public ItemParse() { }
 
-        public ItemParse(string marka, string model, DateTime dateRevision)
+        public ItemParse(string marka, string model, DateTime yearOfProduction)
         {
             this.Marka = marka;
             this.Model = model;
-            DateRevision = dateRevision;
+            this.YearOfProduction = yearOfProduction;
         }
     }
 }
