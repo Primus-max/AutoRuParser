@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 Z:\Programming\ProjectC#\AutoRuScrapper\App.xaml
-11407045341
+21518897493
 
 6-295852892
 201810014355
-MainWindow.xaml;
+MainWindow.xaml;Resources\Base.xaml;
 
-False
+True
 

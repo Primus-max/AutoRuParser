@@ -18,6 +18,45 @@
         Title="Scrapper"
         Height="700"
         Width="620">
+    <Window.Resources>
+        <DataTemplate x:Key="MyItemTemplate">
+            <Grid>
+                <Border Padding="5 7 5 7">
+                    <materialDesign:Card>
+                        <StackPanel>
+                            <Expander HorizontalAlignment="Stretch">
+                                <Expander.Header>
+                                    <StackPanel Orientation="Horizontal" Width="Auto">
+                                        <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        <TextBlock Text="{Binding Mark}" Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
+                                                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                                                materialDesign:ButtonProgressAssist.Value="20"
+                                                materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
+                                                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
+                                                Background="Transparent"
+                                                >
+                                            <materialDesign:PackIcon Kind="Play" Height="30" Width="30" Foreground="Black"/>
+                                        </Button>
+                                    </StackPanel>
+                                </Expander.Header>
+                                <StackPanel Orientation="Vertical"
+                                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                            Margin="24,8,24,16">
+                                    <TextBlock Text="{Binding Model}" />
+                                    <TextBlock Style="{StaticResource MaterialDesignOverlineTextBlock}" />
+                                </StackPanel>
+                            </Expander>
+                            <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
+                        </StackPanel>
+                    </materialDesign:Card>
+                </Border>
+            </Grid>
+        </DataTemplate>
+
+
+    </Window.Resources>
+
     <Grid>
         <materialDesign:Card>
             <TabControl
@@ -26,31 +65,85 @@
                 Style="{StaticResource MaterialDesignFilledTabControl}">
                 <TabItem
                     Header="Парсеры">
-                    <StackPanel
-                        Margin="0 7 0 0"
-                        Orientation="Horizontal"
-                        VerticalAlignment="Top">
-                        <!--<TextBlock
-                        Width="Auto"
-                        Margin="8"
-                        Text="Добавить парсер"
-                        VerticalAlignment="Center" />-->
-                        <Button
-                            Margin="10,0,0,0"
-                            HorizontalAlignment="Left"
-                            Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton }"
-                            ToolTip="Создать новый парсер"
-                            Background="Transparent" >
+                    <StackPanel>
+                        <StackPanel
+                            Margin="0 7 0 0"
+                            Orientation="Horizontal"
+                            VerticalAlignment="Top">
+                            <!--<TextBlock
+                            Width="Auto"
+                            Margin="8"
+                            Text="Добавить парсер"
+                            VerticalAlignment="Center" />-->
+                            <Button
+                                Margin="10,0,0,0"
+                                HorizontalAlignment="Left"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton }"
+                                ToolTip="Создать новый парсер"
+                                Background="Transparent" Click="CreateItem_Click" >
+
+                                <materialDesign:PackIcon
+                                    Kind="Plus"
+                                    Height="30"
+                                    Width="30"
+                                    Foreground="Black"/>
+                            </Button>
+                        </StackPanel>
+
+                        <Grid x:Name="TestGrid">
+
+                            <!--<Border Padding="5 7 5 7">
+                            <materialDesign:Card>
+                            <StackPanel>
+                            <Expander
+                            HorizontalAlignment="Stretch"
+                            >
+                            <Expander.Header>
+                            <StackPanel Orientation="Horizontal"
+                            Width="Auto" >
+                            <TextBlock Text="Марка: "
+                            Margin="5 0 10 0" VerticalAlignment="Center"/>
+                            <TextBlock Text="Модель: "
+                            Margin="5 0 10 0" VerticalAlignment="Center"/>
+                            <Button
+                            Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
+                            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                            materialDesign:ButtonProgressAssist.Value="20"
+                            materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
+
+                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
+                            Background="Transparent">
 
                             <materialDesign:PackIcon
-                                Kind="Plus"
-                                Height="30"
-                                Width="30"
-                                Foreground="Black"/>
-                        </Button>
+                            Kind="Play"
+                            Height="30"
+                            Width="30"
+                            Foreground="Black"/>
+
+                            </Button>
+
+                            </StackPanel>
+                            </Expander.Header>
+                            <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                            Margin="24,8,24,16">
+                            <TextBlock
+                            Text="Настройки парсера" />
+                            <TextBlock
+                            Style="{StaticResource  MaterialDesignOverlineTextBlock}" />
+                            </StackPanel>
+
+                            </Expander>
+                            <Border
+                            Style="{StaticResource  MaterialDesignToolBarMainPanelBorderStyle}" />
+
+                            </StackPanel>
+                            </materialDesign:Card>
+                            </Border>-->
+                        </Grid>
+
                     </StackPanel>
-
-
                 </TabItem>
                 <TabItem
                     Header="Прокси">

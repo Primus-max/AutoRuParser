@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoRuScrapper.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,5 +25,26 @@ namespace AutoRuScrapper
         {
             InitializeComponent();
         }
+
+        private void CreateItem_Click(object sender, RoutedEventArgs e)
+        {
+            // Создаем новый элемент, используя шаблон
+            DataTemplate template = (DataTemplate)FindResource("MyItemTemplate");
+            FrameworkElement newItem = (FrameworkElement)template.LoadContent();
+
+            // Создаем новый экземпляр объекта
+            ItemParse item = new();
+
+            // Находим нужный контейнер на форме, в который будем добавлять новый элемент
+            Grid gridContainer = (Grid)FindName("TestGrid");
+
+            // Добавляем новый элемент в контейнер
+            gridContainer.Children.Add(newItem);
+
+            // Устанавливаем новый контекст данных для элемента
+            newItem.DataContext = item;
+        }
+
+
     }
 }

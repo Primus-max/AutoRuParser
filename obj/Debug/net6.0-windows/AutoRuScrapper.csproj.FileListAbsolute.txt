@@ -29,3 +29,4 @@ Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\AutoRuScrapper.
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\AngleSharp.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\AngleSharp.xml
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\App.baml
+Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\Resources\Base.baml
