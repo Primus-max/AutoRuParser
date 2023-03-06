@@ -17,8 +17,66 @@
 
         Title="Scrapper"
         Height="700"
-        Width="600">
+        Width="620">
     <Grid>
-        <Button >sdfsdf</Button>
+        <materialDesign:Card>
+            <TabControl
+                Width="Auto"
+                materialDesign:ColorZoneAssist.Mode="PrimaryDark"
+                Style="{StaticResource MaterialDesignFilledTabControl}">
+                <TabItem
+                    Header="Парсеры">
+                    <StackPanel
+                        Margin="0 7 0 0"
+                        Orientation="Horizontal"
+                        VerticalAlignment="Top">
+                        <!--<TextBlock
+                        Width="Auto"
+                        Margin="8"
+                        Text="Добавить парсер"
+                        VerticalAlignment="Center" />-->
+                        <Button
+                            Margin="10,0,0,0"
+                            HorizontalAlignment="Left"
+                            Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton }"
+                            ToolTip="Создать новый парсер"
+                            Background="Transparent" >
+
+                            <materialDesign:PackIcon
+                                Kind="Plus"
+                                Height="30"
+                                Width="30"
+                                Foreground="Black"/>
+                        </Button>
+                    </StackPanel>
+
+
+                </TabItem>
+                <TabItem
+                    Header="Прокси">
+                    <TextBlock
+                        Margin="8"
+                        Text="Добавление прокси списком или файлом" />
+                </TabItem>
+                <TabItem
+                    Header="Логи">
+                    <TextBlock
+                        Margin="8"
+                        Text="Просмотр логов для каждого парсера" />
+                </TabItem>
+                <TabItem
+                    Header="Настройки">
+                    <TextBlock
+                        Margin="8"
+                        Text="Настройки программы" />
+                </TabItem>
+                <TabItem
+                    Header="Справка">
+                    <TextBlock
+                        Margin="8"
+                        Text="О том как использовать и о разработчике" />
+                </TabItem>
+            </TabControl>
+        </materialDesign:Card>
     </Grid>
 </Window>
