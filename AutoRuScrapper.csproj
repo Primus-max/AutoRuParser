@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignColors" Version="2.1.2" />
+		<PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+		<PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Resources\" />
+		<Folder Include="ViewModels\" />
+		<Folder Include="View\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="AngleSharp">
+			<HintPath>C:\Users\SKTV-1\.nuget\packages\anglesharp\0.17.1\lib\netstandard2.0\AngleSharp.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
