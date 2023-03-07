@@ -30,10 +30,23 @@
                         <StackPanel>
                             <Expander HorizontalAlignment="Stretch">
                                 <Expander.Header>
-                                    <StackPanel Orientation="Horizontal" Width="Auto">
-                                        <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                        <TextBlock Text="{Binding Mark}" Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                        <Button Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="73*" />
+                                            <ColumnDefinition Width="14*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel
+                                            Grid.Column="0"
+                                            Orientation="Horizontal"
+                                            Width="Auto"
+                                            Grid.ColumnSpan="2">
+                                            <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                            <TextBlock Text="{Binding Marka}" Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                            <TextBlock Text="Модель: " Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                            <TextBlock Text="{Binding Model}" Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        </StackPanel>
+                                        <Button Grid.Column="1"
+                                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
                                                 materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
                                                 materialDesign:ButtonProgressAssist.Value="20"
                                                 materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
@@ -42,7 +55,7 @@
                                                 >
                                             <materialDesign:PackIcon Kind="Play" Height="30" Width="30" Foreground="Black"/>
                                         </Button>
-                                    </StackPanel>
+                                    </Grid>
                                 </Expander.Header>
                                 <StackPanel Orientation="Vertical"
                                             TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
@@ -90,7 +103,7 @@
                         </StackPanel>
 
                         <Grid x:Name="ParsingListGrid">
-                            <ItemsControl ItemsSource="{Binding MyItems}" ItemTemplate="{StaticResource ParsingItemTemplate}" />
+
                         </Grid>
 
                     </StackPanel>
