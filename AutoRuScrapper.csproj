@@ -14,10 +14,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="ViewModels\Base\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Reference Include="AngleSharp">
 			<HintPath>C:\Users\SKTV-1\.nuget\packages\anglesharp\0.17.1\lib\netstandard2.0\AngleSharp.dll</HintPath>
 		</Reference>
