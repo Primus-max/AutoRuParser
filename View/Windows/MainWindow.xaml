@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoRuScrapper"
+        xmlns:dc="clr-namespace:AutoRuScrapper.ViewModels"
         mc:Ignorable="d"
 
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -15,9 +16,12 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
 
-        Title="Scrapper"
+        Title="{Binding Title}"
         Height="700"
         Width="620">
+    <Window.DataContext>
+        <dc:MainWindowViewModel />
+    </Window.DataContext>
     <Window.Resources>
         <DataTemplate x:Key="ParsingItemTemplate">
             <Grid>
@@ -69,7 +73,7 @@
                         <StackPanel
                             Margin="0 7 0 0"
                             Orientation="Horizontal"
-                            VerticalAlignment="Top">                            
+                            VerticalAlignment="Top">
                             <Button
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Left"

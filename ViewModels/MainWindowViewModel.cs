@@ -9,5 +9,11 @@ namespace AutoRuScrapper.ViewModels
 {
     internal class MainWindowViewModel : BaseViewModel
     {
+        private string _title = "Автору парсер";
+        public string Title
+        {
+            get => _title;
+            set => Set(ref _title, value);
+        }
     }
 }
