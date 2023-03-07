@@ -1,0 +1,2230 @@
+{
+  "marks": [
+    {
+      "id": "AC",
+      "name": "AC",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179af635769c871e93cab327c98f5/dealer_logo"
+    },
+    {
+      "id": "ACURA",
+      "name": "Acura",
+      "count": 218,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af6419814ee1d6f084462aa5be/dealer_logo"
+    },
+    {
+      "id": "ADLER",
+      "name": "Adler",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af6843692dbf5427ff30eb882a/dealer_logo"
+    },
+    {
+      "id": "AITO",
+      "name": "Aito",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a000001869c5888081da899b8baede56433/dealer_logo"
+    },
+    {
+      "id": "ALFA_ROMEO",
+      "name": "Alfa Romeo",
+      "count": 189,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179af6910ea89dbab715350faa4ac/dealer_logo"
+    },
+    {
+      "id": "ALPINA",
+      "name": "Alpina",
+      "count": 9,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af697b3a4e47b7fc0f3318be03/dealer_logo"
+    },
+    {
+      "id": "ALPINE",
+      "name": "Alpine",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af6a0fa8c0d53f295c5cb433d8/dealer_logo"
+    },
+    {
+      "id": "AM_GENERAL",
+      "name": "AM General",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af6b0c39630db49b75bd8f6616/dealer_logo"
+    },
+    {
+      "id": "AMC",
+      "name": "AMC",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af6bbfa4463e781794f39bf050/dealer_logo"
+    },
+    {
+      "id": "APAL",
+      "name": "Apal",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179af6c345e856f7244b276ad7c13/dealer_logo"
+    },
+    {
+      "id": "ARCFOX",
+      "name": "Arcfox",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000182aaf03c609d707d0c7a6d732a21/dealer_logo"
+    },
+    {
+      "id": "ARIEL",
+      "name": "Ariel",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af6d275c1400e7756704c2e7f5/dealer_logo"
+    },
+    {
+      "id": "ARO",
+      "name": "Aro",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af6dbba365163913eac02de119/dealer_logo"
+    },
+    {
+      "id": "ASIA",
+      "name": "Asia",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179af6e0ada493c69d6f77e6b6fa8/dealer_logo"
+    },
+    {
+      "id": "ASTON_MARTIN",
+      "name": "Aston Martin",
+      "count": 30,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1604130/2a000001821c06a11527eaab086579b80725/dealer_logo"
+    },
+    {
+      "id": "AUBURN",
+      "name": "Auburn",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000017e057b198a0849aa541cc95e13e3/dealer_logo"
+    },
+    {
+      "id": "AUDI",
+      "name": "Audi",
+      "count": 11003,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af710f40b85f9c3aedb68201fd/dealer_logo"
+    },
+    {
+      "id": "AURUS",
+      "name": "Aurus",
+      "count": 14,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af71cf871a9bd38ce924981541/dealer_logo"
+    },
+    {
+      "id": "AUSTIN",
+      "name": "Austin",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179af7377ae50b8d5f60e1cab7aa0/dealer_logo"
+    },
+    {
+      "id": "AUSTIN_HEALEY",
+      "name": "Austin Healey",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179af726ab9199fc9fa09211a4095/dealer_logo"
+    },
+    {
+      "id": "AUTO_UNION",
+      "name": "Auto Union",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a0000018438ce209aa70e0e5c6b88bae30e/dealer_logo"
+    },
+    {
+      "id": "AUTOBIANCHI",
+      "name": "Autobianchi",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af741300946306a75145f2201c/dealer_logo"
+    },
+    {
+      "id": "AVATR",
+      "name": "Avatr",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a000001865fa669ff4e7b0d46b701fd8ffd/dealer_logo"
+    },
+    {
+      "id": "BAIC",
+      "name": "BAIC",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179af7fe49f897ade2eac84ad0303/dealer_logo"
+    },
+    {
+      "id": "BAJAJ",
+      "name": "Bajaj",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179af80b54e40d8fb94668ef64544/dealer_logo"
+    },
+    {
+      "id": "BALTIJAS_DZIPS",
+      "name": "Baltijas Dzips",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af851fbd042f814540eff77cef/dealer_logo"
+    },
+    {
+      "id": "BAOJUN",
+      "name": "Baojun",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000186540120930bb4318b8b63025fe9/dealer_logo"
+    },
+    {
+      "id": "BATMOBILE",
+      "name": "Batmobile",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179af85d2c199fa8592823fb73cd8/dealer_logo"
+    },
+    {
+      "id": "BENTLEY",
+      "name": "Bentley",
+      "count": 328,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179af8654f5c0f6e80c083d7fcdc4/dealer_logo"
+    },
+    {
+      "id": "BERTONE",
+      "name": "Bertone",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179af8707ea8cbbf27b62d6c7babc/dealer_logo"
+    },
+    {
+      "id": "BILENKIN",
+      "name": "Bilenkin",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179af876e8bee385ee8275126b5dc/dealer_logo"
+    },
+    {
+      "id": "BIO_AUTO",
+      "name": "Bio auto",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179af8830d7d4503eba63c0daed95/dealer_logo"
+    },
+    {
+      "id": "BITTER",
+      "name": "Bitter",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179af8bc05c156db768356c056b92/dealer_logo"
+    },
+    {
+      "id": "BLAVAL",
+      "name": "Blaval",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1535139/2a0000018008e0a537b1a75abf349585d3ed/dealer_logo"
+    },
+    {
+      "id": "BMW",
+      "name": "BMW",
+      "count": 20275,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179af8e23344d871bcfa394f0c60d/dealer_logo"
+    },
+    {
+      "id": "BORGWARD",
+      "name": "Borgward",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179af97e8f96057719182886ba57f/dealer_logo"
+    },
+    {
+      "id": "BRABUS",
+      "name": "Brabus",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179af9894085738bb23b361ee45ea/dealer_logo"
+    },
+    {
+      "id": "BRILLIANCE",
+      "name": "Brilliance",
+      "count": 35,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179af99060c5fd96635786be5299e/dealer_logo"
+    },
+    {
+      "id": "BRISTOL",
+      "name": "Bristol",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179afa20cd9c8c757b28a9cedf398/dealer_logo"
+    },
+    {
+      "id": "BUFORI",
+      "name": "Bufori",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179afa27dede7be7576590386ea49/dealer_logo"
+    },
+    {
+      "id": "BUGATTI",
+      "name": "Bugatti",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a000001824058cc21fd74e233c44d49eeef/dealer_logo"
+    },
+    {
+      "id": "BUICK",
+      "name": "Buick",
+      "count": 71,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000018654015ae1211d476e4e07bf0411/dealer_logo"
+    },
+    {
+      "id": "BYD",
+      "name": "BYD",
+      "count": 134,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179afa4792c167794d61321cd961d/dealer_logo"
+    },
+    {
+      "id": "BYVIN",
+      "name": "Byvin",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179afa4e40b99cba3f241534e87e9/dealer_logo"
+    },
+    {
+      "id": "CADILLAC",
+      "name": "Cadillac",
+      "count": 820,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b1487a470526420543f4cd811e/dealer_logo"
+    },
+    {
+      "id": "CALLAWAY",
+      "name": "Callaway",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b14ed08da28e5c955872c5ef5d/dealer_logo"
+    },
+    {
+      "id": "CARBODIES",
+      "name": "Carbodies",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b151ef94f9b4e44d07a3b20ee6/dealer_logo"
+    },
+    {
+      "id": "CATERHAM",
+      "name": "Caterham",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b152664c89c28054fcde58d0be/dealer_logo"
+    },
+    {
+      "id": "CHANA",
+      "name": "Chana",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b15335881d9ce3bd5a7698fe82/dealer_logo"
+    },
+    {
+      "id": "CHANGAN",
+      "name": "Changan",
+      "count": 2124,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b16342ac8799e9a62b7677c27e/dealer_logo"
+    },
+    {
+      "id": "CHANGFENG",
+      "name": "ChangFeng",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b163fc773c1409364e48295fe3/dealer_logo"
+    },
+    {
+      "id": "CHANGHE",
+      "name": "Changhe",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b16452f434c094f992d3baf007/dealer_logo"
+    },
+    {
+      "id": "CHERY",
+      "name": "Chery",
+      "count": 8048,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b165e6fa8b9d1b277d1ea87245/dealer_logo"
+    },
+    {
+      "id": "CHEVROLET",
+      "name": "Chevrolet",
+      "count": 7831,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b16743df359774da64ba5ddfe0/dealer_logo"
+    },
+    {
+      "id": "CHRYSLER",
+      "name": "Chrysler",
+      "count": 466,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b1678dc7d690b5b122c8d6960f/dealer_logo"
+    },
+    {
+      "id": "CIIMO",
+      "name": "Ciimo (DongFeng-Honda)",
+      "count": 9,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000017e01e0797b8b64df92eafc316c5a/dealer_logo"
+    },
+    {
+      "id": "CITROEN",
+      "name": "Citroen",
+      "count": 2238,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000184a9a52e569dca243ea886b77d92/dealer_logo"
+    },
+    {
+      "id": "CIZETA",
+      "name": "Cizeta",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b1689efdef3120c6506c62b80f/dealer_logo"
+    },
+    {
+      "id": "COGGIOLA",
+      "name": "Coggiola",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b1698a27a60c558c107c7a1945/dealer_logo"
+    },
+    {
+      "id": "CORD",
+      "name": "Cord",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b169f1020d659582412319b0ca/dealer_logo"
+    },
+    {
+      "id": "CUPRA",
+      "name": "Cupra",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a0000017e057bf869151a70447365226973/dealer_logo"
+    },
+    {
+      "id": "DACIA",
+      "name": "Dacia",
+      "count": 35,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a000001865401da153043b4d416a42ba961/dealer_logo"
+    },
+    {
+      "id": "DADI",
+      "name": "Dadi",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b17771f79079edfdd576b47b25/dealer_logo"
+    },
+    {
+      "id": "DAEWOO",
+      "name": "Daewoo",
+      "count": 2204,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b1784109f084701da2a4a80743/dealer_logo"
+    },
+    {
+      "id": "DAIHATSU",
+      "name": "Daihatsu",
+      "count": 411,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b178b218f185900b19a20f95d6/dealer_logo"
+    },
+    {
+      "id": "DAIMLER",
+      "name": "Daimler",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b179a9fdeaca61d555eb62dc8d/dealer_logo"
+    },
+    {
+      "id": "DALLARA",
+      "name": "Dallara",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b17a09b2a8ec02ec2d9d77966a/dealer_logo"
+    },
+    {
+      "id": "DATSUN",
+      "name": "Datsun",
+      "count": 602,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b17acf490b6201e0bdb9679b57/dealer_logo"
+    },
+    {
+      "id": "DE_TOMASO",
+      "name": "De Tomaso",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b17b3adf2aa25e09de58d1ba55/dealer_logo"
+    },
+    {
+      "id": "DECO_RIDES",
+      "name": "Deco Rides",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b17bfa240be85e6b2d5718c97b/dealer_logo"
+    },
+    {
+      "id": "DELAGE",
+      "name": "Delage",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b17c4cd1f94bb99245f4635dd7/dealer_logo"
+    },
+    {
+      "id": "DELOREAN",
+      "name": "DeLorean",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b17e9117fb7dde840673c6b2c1/dealer_logo"
+    },
+    {
+      "id": "DENZA",
+      "name": "Denza",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000182c4d07d99f6aaa084701cf4b0af/dealer_logo"
+    },
+    {
+      "id": "DERWAYS",
+      "name": "Derways",
+      "count": 14,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b17f00d1894fc4878407d25a11/dealer_logo"
+    },
+    {
+      "id": "DESOTO",
+      "name": "DeSoto",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b17fdb283bb558c81d7e721504/dealer_logo"
+    },
+    {
+      "id": "DKW",
+      "name": "DKW",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b1803d2ae8f3ee1bfb0fc40105/dealer_logo"
+    },
+    {
+      "id": "DODGE",
+      "name": "Dodge",
+      "count": 782,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b1810427fe47649d61f1da3cb1/dealer_logo"
+    },
+    {
+      "id": "DONGFENG",
+      "name": "DongFeng",
+      "count": 232,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b18174b5c217e89394a490a7e8/dealer_logo"
+    },
+    {
+      "id": "FORTHING",
+      "name": "Dongfeng Forthing",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000186b699d7278ec9df29e39a413356/dealer_logo"
+    },
+    {
+      "id": "DONINVEST",
+      "name": "Doninvest",
+      "count": 8,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b1822b650783ffbc62e0cb653a/dealer_logo"
+    },
+    {
+      "id": "DONKERVOORT",
+      "name": "Donkervoort",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b18341fcfefdedda3b297d22ff/dealer_logo"
+    },
+    {
+      "id": "DS",
+      "name": "DS",
+      "count": 16,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b1843e8027cf428e8654b33e61/dealer_logo"
+    },
+    {
+      "id": "DW_HOWER",
+      "name": "DW Hower",
+      "count": 10,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b18493ff8f821cd20a88c2b67f/dealer_logo"
+    },
+    {
+      "id": "E_CAR",
+      "name": "E-Car",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b19130b5c6194fa779efa01ac2/dealer_logo"
+    },
+    {
+      "id": "EAGLE",
+      "name": "Eagle",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1604130/2a00000179b190433eb480e11ae8966faa27/dealer_logo"
+    },
+    {
+      "id": "EAGLE_CARS",
+      "name": "Eagle Cars",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b19073d0051a0c22b70091b9bd/dealer_logo"
+    },
+    {
+      "id": "EVERUS",
+      "name": "Everus",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a0000017e01e24cfef02970a2c130d80bc5/dealer_logo"
+    },
+    {
+      "id": "EVOLUTE",
+      "name": "Evolute",
+      "count": 441,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000183be293acd2eeb6ff325c8db1a88/dealer_logo"
+    },
+    {
+      "id": "EXCALIBUR",
+      "name": "Excalibur",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b1917ae6243dafdb02cee0b567/dealer_logo"
+    },
+    {
+      "id": "CHERYEXEED",
+      "name": "EXEED",
+      "count": 4898,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a0000017d0933e92f29c7f149eb2c32045c/dealer_logo"
+    },
+    {
+      "id": "FACEL_VEGA",
+      "name": "Facel Vega",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a0000017f98b9333321328d3c30252f586b/dealer_logo"
+    },
+    {
+      "id": "FAW",
+      "name": "FAW",
+      "count": 360,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b195548217675fd07ed0549267/dealer_logo"
+    },
+    {
+      "id": "FERRARI",
+      "name": "Ferrari",
+      "count": 68,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000017e057cf62437573836f2cc966440/dealer_logo"
+    },
+    {
+      "id": "FIAT",
+      "name": "Fiat",
+      "count": 605,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b196963d0b2155152d0fafb85f/dealer_logo"
+    },
+    {
+      "id": "FISKER",
+      "name": "Fisker",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b196dd08897f689a1e31bf19d9/dealer_logo"
+    },
+    {
+      "id": "FLANKER",
+      "name": "Flanker",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b19768c71feec3d13d5dacc216/dealer_logo"
+    },
+    {
+      "id": "FORD",
+      "name": "Ford",
+      "count": 10120,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b19823f006efb87fadeffbf25a/dealer_logo"
+    },
+    {
+      "id": "FOTON",
+      "name": "Foton",
+      "count": 11,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b198bf7a360ccefe1b81a172ed/dealer_logo"
+    },
+    {
+      "id": "FSO",
+      "name": "FSO",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b263aa2ec75469d4bdd0464eb5/dealer_logo"
+    },
+    {
+      "id": "FUQI",
+      "name": "Fuqi",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b2dee3701c9c3f83322d8a0859/dealer_logo"
+    },
+    {
+      "id": "GAC",
+      "name": "GAC",
+      "count": 55,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b2e044ecdff02e918a8e6b0334/dealer_logo"
+    },
+    {
+      "id": "AION",
+      "name": "GAC Aion",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000181a44c011300bc981bd1accc52e8/dealer_logo"
+    },
+    {
+      "id": "GEELY",
+      "name": "Geely",
+      "count": 3791,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b2e0d56f3caac810e36ae6b43c/dealer_logo"
+    },
+    {
+      "id": "GENESIS",
+      "name": "Genesis",
+      "count": 901,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000184a9a44f9d6ee1e17d18850c4f3c/dealer_logo"
+    },
+    {
+      "id": "GEO",
+      "name": "Geo",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b2e335ba32b86f6933462a0cc0/dealer_logo"
+    },
+    {
+      "id": "GMC",
+      "name": "GMC",
+      "count": 134,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b2e394f08938a60bda8606cd1b/dealer_logo"
+    },
+    {
+      "id": "GOGGOMOBIL",
+      "name": "Goggomobil",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a0000017bcaa2f48ce85cbb9327b1c0f2b6/dealer_logo"
+    },
+    {
+      "id": "GONOW",
+      "name": "Gonow",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b2e42b316f69b2acf9bd1df47b/dealer_logo"
+    },
+    {
+      "id": "GORDON",
+      "name": "Gordon",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e474178baf292b449ecc740b/dealer_logo"
+    },
+    {
+      "id": "GP",
+      "name": "GP",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b2e5d4a1d9196a5f81d2a7a1c5/dealer_logo"
+    },
+    {
+      "id": "GREAT_WALL",
+      "name": "Great Wall",
+      "count": 613,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e612d87a399edac5fd3afb2e/dealer_logo"
+    },
+    {
+      "id": "HAFEI",
+      "name": "Hafei",
+      "count": 13,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e69da9b9a014591463f4f266/dealer_logo"
+    },
+    {
+      "id": "HAIMA",
+      "name": "Haima",
+      "count": 44,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e6e65cee8d802f410d0ce625/dealer_logo"
+    },
+    {
+      "id": "HANOMAG",
+      "name": "Hanomag",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b2e7c5e392991a8c1ec1a387c9/dealer_logo"
+    },
+    {
+      "id": "HAVAL",
+      "name": "Haval",
+      "count": 7968,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b2e81789372a5794852e204c77/dealer_logo"
+    },
+    {
+      "id": "HAWTAI",
+      "name": "Hawtai",
+      "count": 15,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b2e89e35c654977fc74b6c3a3b/dealer_logo"
+    },
+    {
+      "id": "HEINKEL",
+      "name": "Heinkel",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e8e88083110b14adc62374a6/dealer_logo"
+    },
+    {
+      "id": "HENNESSEY",
+      "name": "Hennessey",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2e9f152d3fc1150d7370f7548/dealer_logo"
+    },
+    {
+      "id": "HINDUSTAN",
+      "name": "Hindustan",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b2ea671d29dc4464503b90beff/dealer_logo"
+    },
+    {
+      "id": "HIPHI",
+      "name": "HiPhi",
+      "count": 15,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a0000018438cb1832edbf88c55b35b8f9a5/dealer_logo"
+    },
+    {
+      "id": "HISPANO_SUIZA",
+      "name": "Hispano-Suiza",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b2eb39a90b8c072e1b0b11dab9/dealer_logo"
+    },
+    {
+      "id": "HOLDEN",
+      "name": "Holden",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b2ec3256fb33af5d2e72fc7530/dealer_logo"
+    },
+    {
+      "id": "HONDA",
+      "name": "Honda",
+      "count": 6326,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3bd0ba30fdde2a3274e9dd697/dealer_logo"
+    },
+    {
+      "id": "HONGQI",
+      "name": "Hongqi",
+      "count": 69,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a0000017f98ba8eb376a6b33c132cb26770/dealer_logo"
+    },
+    {
+      "id": "HORCH",
+      "name": "Horch",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3bd7251043caf2da1212c3d03/dealer_logo"
+    },
+    {
+      "id": "HOZON",
+      "name": "Hozon",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a0000017f98bb06344b9bc8303c4485a526/dealer_logo"
+    },
+    {
+      "id": "HSV",
+      "name": "HSV",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a0000017e057d97385920472f79dd5b2ea9/dealer_logo"
+    },
+    {
+      "id": "HUANGHAI",
+      "name": "HuangHai",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3be240ecf6cd1715ca8a14ace/dealer_logo"
+    },
+    {
+      "id": "HUDSON",
+      "name": "Hudson",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3be96de3051667a84cfbebcc0/dealer_logo"
+    },
+    {
+      "id": "HUMMER",
+      "name": "Hummer",
+      "count": 171,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3bf4dc223fa4b329f794787f1/dealer_logo"
+    },
+    {
+      "id": "HYUNDAI",
+      "name": "Hyundai",
+      "count": 23886,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3bf9ed4cee7a9032a7849da57/dealer_logo"
+    },
+    {
+      "id": "INFINITI",
+      "name": "Infiniti",
+      "count": 2058,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3c047272214b2d8f55e46fc30/dealer_logo"
+    },
+    {
+      "id": "INNOCENTI",
+      "name": "Innocenti",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3c0b5196bb4f8f9fa2bce2063/dealer_logo"
+    },
+    {
+      "id": "INTERNATIONAL",
+      "name": "International",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3c1c59f1e755c85f7a81850dc/dealer_logo"
+    },
+    {
+      "id": "INVICTA",
+      "name": "Invicta",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3c27905ff4425fb4ee52010d1/dealer_logo"
+    },
+    {
+      "id": "IRAN_KHODRO",
+      "name": "Iran Khodro",
+      "count": 51,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3c31b9c90214eeee56d1ce910/dealer_logo"
+    },
+    {
+      "id": "ISDERA",
+      "name": "Isdera",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3c36b2dc5bb133e114f95281a/dealer_logo"
+    },
+    {
+      "id": "ISUZU",
+      "name": "Isuzu",
+      "count": 118,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3c3fed3b32797c7d05dc9270f/dealer_logo"
+    },
+    {
+      "id": "IVECO",
+      "name": "IVECO",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3c43b4b110079e507a058da80/dealer_logo"
+    },
+    {
+      "id": "JAC",
+      "name": "JAC",
+      "count": 361,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000184a9a0ca93f98bcd4c1665d1fea1/dealer_logo"
+    },
+    {
+      "id": "JAGUAR",
+      "name": "Jaguar",
+      "count": 1015,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3c5779d0f49dfaaedefa3dd30/dealer_logo"
+    },
+    {
+      "id": "JEEP",
+      "name": "Jeep",
+      "count": 1340,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3c62199f6c88fab5eed45e689/dealer_logo"
+    },
+    {
+      "id": "JENSEN",
+      "name": "Jensen",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3c672166801671e785883222a/dealer_logo"
+    },
+    {
+      "id": "JETOUR",
+      "name": "Jetour",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a000001865402730dcaa86696fe6eebdea8/dealer_logo"
+    },
+    {
+      "id": "JETTA",
+      "name": "Jetta",
+      "count": 88,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a000001865402bdcd0b3f030a61b3b43543/dealer_logo"
+    },
+    {
+      "id": "JINBEI",
+      "name": "Jinbei",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3c704f681b67a7a167bc22acf/dealer_logo"
+    },
+    {
+      "id": "JMC",
+      "name": "JMC",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3c746610c17cb5f45cebfcdcf/dealer_logo"
+    },
+    {
+      "id": "KAIYI",
+      "name": "Kaiyi",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000184a8d4edaa028f32224527f762bf/dealer_logo"
+    },
+    {
+      "id": "KIA",
+      "name": "Kia",
+      "count": 21539,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a0000017bf2918f10c96b31e51ef37dc206/dealer_logo"
+    },
+    {
+      "id": "KOENIGSEGG",
+      "name": "Koenigsegg",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3c8390683feb1791d27b09476/dealer_logo"
+    },
+    {
+      "id": "KTM",
+      "name": "KTM AG",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3c8d852f25a380a37d4d97b30/dealer_logo"
+    },
+    {
+      "id": "VAZ",
+      "name": "LADA (ВАЗ)",
+      "count": 47496,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a0000017d57571c94cb86247fa9fe753f94/dealer_logo"
+    },
+    {
+      "id": "LAMBORGHINI",
+      "name": "Lamborghini",
+      "count": 86,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3c93b327949205d5e4d58c8ce/dealer_logo"
+    },
+    {
+      "id": "LANCIA",
+      "name": "Lancia",
+      "count": 26,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3c9f8aa4f99a90a6dab7c4132/dealer_logo"
+    },
+    {
+      "id": "LAND_ROVER",
+      "name": "Land Rover",
+      "count": 4706,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3ca48ca4a55c50fd8abd23d48/dealer_logo"
+    },
+    {
+      "id": "LANDWIND",
+      "name": "Landwind",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3cb1f75ecefcfc83f836a67ad/dealer_logo"
+    },
+    {
+      "id": "LEAPMOTOR",
+      "name": "Leapmotor",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000181a421e25c692a2b97325a921804/dealer_logo"
+    },
+    {
+      "id": "LEXUS",
+      "name": "Lexus",
+      "count": 5290,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3cbfe6c41c4c32d9250350c44/dealer_logo"
+    },
+    {
+      "id": "LIEBAO",
+      "name": "Liebao Motor",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3ccf93668171e44547ce93051/dealer_logo"
+    },
+    {
+      "id": "LIFAN",
+      "name": "Lifan",
+      "count": 754,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3cda234970d0ebb591f6ac76a/dealer_logo"
+    },
+    {
+      "id": "LIGIER",
+      "name": "Ligier",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3ce03921c4153b3f1a0c20ccd/dealer_logo"
+    },
+    {
+      "id": "LINCOLN",
+      "name": "Lincoln",
+      "count": 222,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3cec747fe39aac4fbb67af3df/dealer_logo"
+    },
+    {
+      "id": "LIXIANG",
+      "name": "LiXiang",
+      "count": 38,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3ccb0de15693c939d42e997ad/dealer_logo"
+    },
+    {
+      "id": "LOGEM",
+      "name": "Logem",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3cf1688e725ddc3c60302640a/dealer_logo"
+    },
+    {
+      "id": "LOTUS",
+      "name": "Lotus",
+      "count": 8,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3cfce116bdfcfe58a3769c199/dealer_logo"
+    },
+    {
+      "id": "LTI",
+      "name": "LTI",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3d0294728afbc09b32dadca42/dealer_logo"
+    },
+    {
+      "id": "LUCID",
+      "name": "Lucid",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3d0fc857397954cac9bf175ed/dealer_logo"
+    },
+    {
+      "id": "LUXGEN",
+      "name": "Luxgen",
+      "count": 11,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3d1565c48682d3eff021a456d/dealer_logo"
+    },
+    {
+      "id": "LYNK_CO",
+      "name": "Lynk & Co",
+      "count": 21,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a000001865403ec82a25340cdda625a80fe/dealer_logo"
+    },
+    {
+      "id": "MAHINDRA",
+      "name": "Mahindra",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3d21f9eb159841ce7b99f2fb0/dealer_logo"
+    },
+    {
+      "id": "MARCOS",
+      "name": "Marcos",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3d26d72b6fda7e5401cd5f336/dealer_logo"
+    },
+    {
+      "id": "MARLIN",
+      "name": "Marlin",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3d33a9f255b517c0684c3bdae/dealer_logo"
+    },
+    {
+      "id": "MARUSSIA",
+      "name": "Marussia",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3d38f03e3e839df55a2408ac2/dealer_logo"
+    },
+    {
+      "id": "MARUTI",
+      "name": "Maruti",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3d48034362cca3f2bfd560c0e/dealer_logo"
+    },
+    {
+      "id": "MASERATI",
+      "name": "Maserati",
+      "count": 142,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3d4d7f1fb10f6ef9ff746835e/dealer_logo"
+    },
+    {
+      "id": "MATRA",
+      "name": "Matra",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a0000017e057e3d1f7db7d8ab8a8839a525/dealer_logo"
+    },
+    {
+      "id": "MAXUS",
+      "name": "Maxus",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000018654045eccaa9e3fdecc00558fdd/dealer_logo"
+    },
+    {
+      "id": "MAYBACH",
+      "name": "Maybach",
+      "count": 11,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3daf84c94d0401766cbbe40f7/dealer_logo"
+    },
+    {
+      "id": "MAZDA",
+      "name": "Mazda",
+      "count": 7142,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3db54d36bf52cf9ac0aa4f01b/dealer_logo"
+    },
+    {
+      "id": "MCLAREN",
+      "name": "McLaren",
+      "count": 9,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3dc252a126a9ab22511b2651f/dealer_logo"
+    },
+    {
+      "id": "MEGA",
+      "name": "Mega",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3dcb7f32d16fc2af5772ef9b2/dealer_logo"
+    },
+    {
+      "id": "MERCEDES",
+      "name": "Mercedes-Benz",
+      "count": 19571,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3dd6837b829e20043c2907396/dealer_logo"
+    },
+    {
+      "id": "MERCURY",
+      "name": "Mercury",
+      "count": 24,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3ddda7d27a4a5fc1cc5d59808/dealer_logo"
+    },
+    {
+      "id": "MESSERSCHMITT",
+      "name": "Messerschmitt",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a0000017bcaa523de437d91e5d634341886/dealer_logo"
+    },
+    {
+      "id": "METROCAB",
+      "name": "Metrocab",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3de8848c758e5ef4799ec3692/dealer_logo"
+    },
+    {
+      "id": "MG",
+      "name": "MG",
+      "count": 13,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3deece4bed6bfd40f399c3a32/dealer_logo"
+    },
+    {
+      "id": "MICROCAR",
+      "name": "Microcar",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3df87fcd9af7a4b137de65b08/dealer_logo"
+    },
+    {
+      "id": "MINELLI",
+      "name": "Minelli",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3dfcee01f9cfab1bb869569a0/dealer_logo"
+    },
+    {
+      "id": "MINI",
+      "name": "MINI",
+      "count": 917,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3e0c0e465fe943656542f3cb3/dealer_logo"
+    },
+    {
+      "id": "MITSUBISHI",
+      "name": "Mitsubishi",
+      "count": 10036,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3e077643d3d034e8718642484/dealer_logo"
+    },
+    {
+      "id": "MITSUOKA",
+      "name": "Mitsuoka",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3e16d81b2ae84bc8b25dcb986/dealer_logo"
+    },
+    {
+      "id": "MOBILIZE",
+      "name": "Mobilize",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a0000018511f8f422f44eb0d377cd7223d0/dealer_logo"
+    },
+    {
+      "id": "MORGAN",
+      "name": "Morgan",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3e1ba1ba1c19a1429509d672f/dealer_logo"
+    },
+    {
+      "id": "MORRIS",
+      "name": "Morris",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3e2569101b9dc7f1b7024e065/dealer_logo"
+    },
+    {
+      "id": "NASH",
+      "name": "Nash",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3e293ad6b58b59c9f0848891d/dealer_logo"
+    },
+    {
+      "id": "NIO",
+      "name": "Nio",
+      "count": 16,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3e31dda576e76147888b1a4e3/dealer_logo"
+    },
+    {
+      "id": "NISSAN",
+      "name": "Nissan",
+      "count": 14598,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3e3855153a7ad4c6acf51a351/dealer_logo"
+    },
+    {
+      "id": "NOBLE",
+      "name": "Noble",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3e4175bb16d356b0c5f45f793/dealer_logo"
+    },
+    {
+      "id": "OLDSMOBILE",
+      "name": "Oldsmobile",
+      "count": 9,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b3e46b8547dbcd55169b20204b/dealer_logo"
+    },
+    {
+      "id": "OMODA",
+      "name": "OMODA",
+      "count": 2082,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a0000018360c5da7712791bad3154259848/dealer_logo"
+    },
+    {
+      "id": "OPEL",
+      "name": "Opel",
+      "count": 6659,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3e4e1c4c28087a58eb0595a12/dealer_logo"
+    },
+    {
+      "id": "ORA",
+      "name": "ORA",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000186315c605d839e01ec6b237aa11a/dealer_logo"
+    },
+    {
+      "id": "OSCA",
+      "name": "Osca",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3e51d21e489cafb15e447e6df/dealer_logo"
+    },
+    {
+      "id": "OSHAN",
+      "name": "Oshan",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1535139/2a000001850788017e16a77a719db04a372c/dealer_logo"
+    },
+    {
+      "id": "PACKARD",
+      "name": "Packard",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3e5da354f650fd8e356f6600d/dealer_logo"
+    },
+    {
+      "id": "PAGANI",
+      "name": "Pagani",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3e652735829014e4e1c7f8a20/dealer_logo"
+    },
+    {
+      "id": "PANOZ",
+      "name": "Panoz",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3e77fdb71780237386e5c71ee/dealer_logo"
+    },
+    {
+      "id": "PERODUA",
+      "name": "Perodua",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3e7f34e0d4c0827ece1875446/dealer_logo"
+    },
+    {
+      "id": "PEUGEOT",
+      "name": "Peugeot",
+      "count": 3335,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3e82533ade83f91721161195e/dealer_logo"
+    },
+    {
+      "id": "PGO",
+      "name": "PGO",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3e89a772b8e7b8a673d660940/dealer_logo"
+    },
+    {
+      "id": "PIAGGIO",
+      "name": "Piaggio",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3e8f881edc7519fefd6e21fbe/dealer_logo"
+    },
+    {
+      "id": "PIERCE_ARROW",
+      "name": "Pierce-Arrow",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a0000017d0935ff3aef2c80ea2b0a1cfc3a/dealer_logo"
+    },
+    {
+      "id": "PLYMOUTH",
+      "name": "Plymouth",
+      "count": 18,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3e997de6a51294a4ae35fed36/dealer_logo"
+    },
+    {
+      "id": "POLESTAR",
+      "name": "Polestar",
+      "count": 17,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3e9e08a88f180b684c0d5c4ef/dealer_logo"
+    },
+    {
+      "id": "PONTIAC",
+      "name": "Pontiac",
+      "count": 71,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3ea4eb4ad4f0c17d3c2725ff7/dealer_logo"
+    },
+    {
+      "id": "PORSCHE",
+      "name": "Porsche",
+      "count": 3017,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3eaae258adb08eeaee3b00063/dealer_logo"
+    },
+    {
+      "id": "PREMIER",
+      "name": "Premier",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b3eb2bcf335365f9f2b4e1cec3/dealer_logo"
+    },
+    {
+      "id": "PROTON",
+      "name": "Proton",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3eb7456617eda1b10ce442350/dealer_logo"
+    },
+    {
+      "id": "PUCH",
+      "name": "PUCH",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3ebeeaded39d7d1816aaf80f7/dealer_logo"
+    },
+    {
+      "id": "PUMA",
+      "name": "Puma",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3ec3e1cd35dc05503d804d8f5/dealer_logo"
+    },
+    {
+      "id": "QOROS",
+      "name": "Qoros",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b3ecebdc7aac3e8966a565bf6f/dealer_logo"
+    },
+    {
+      "id": "QVALE",
+      "name": "Qvale",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3ed331fe114135923e2baaeed/dealer_logo"
+    },
+    {
+      "id": "RAM",
+      "name": "RAM",
+      "count": 223,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b3fb00589b74f187fc5e854ddf/dealer_logo"
+    },
+    {
+      "id": "RAVON",
+      "name": "Ravon",
+      "count": 127,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3fbdf6c1b301a9e6209a600f3/dealer_logo"
+    },
+    {
+      "id": "RELIANT",
+      "name": "Reliant",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3fc26f58a02754e9b60e8f26e/dealer_logo"
+    },
+    {
+      "id": "RENAISSANCE_CARS",
+      "name": "Renaissance",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3fcca72f7f7d82260cbaf5ecd/dealer_logo"
+    },
+    {
+      "id": "RENAULT",
+      "name": "Renault",
+      "count": 8656,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3fdd269874274123e895b4dfa/dealer_logo"
+    },
+    {
+      "id": "SAMSUNG",
+      "name": "Renault Samsung",
+      "count": 42,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3fd20bbc73e7bb48ade5dbcdd/dealer_logo"
+    },
+    {
+      "id": "REZVANI",
+      "name": "Rezvani",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b3fe221a1780f60a8889b747e9/dealer_logo"
+    },
+    {
+      "id": "RIMAC",
+      "name": "Rimac",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b3feb868c878a5a14dfae63f28/dealer_logo"
+    },
+    {
+      "id": "RINSPEED",
+      "name": "Rinspeed",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b3ff85d12b34c375f4d748613e/dealer_logo"
+    },
+    {
+      "id": "RISING_AUTO",
+      "name": "Rising Auto",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000186984b67fc62da1f99e7a79eb896/dealer_logo"
+    },
+    {
+      "id": "RIVIAN",
+      "name": "Rivian",
+      "count": 4,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000180cc64bbca02c9c41e73e204f847/dealer_logo"
+    },
+    {
+      "id": "ROEWE",
+      "name": "Roewe",
+      "count": 12,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b4003420f35d19c342230ede6e/dealer_logo"
+    },
+    {
+      "id": "ROLLS_ROYCE",
+      "name": "Rolls-Royce",
+      "count": 150,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b400fdf4e7fae13e9c78fa7743/dealer_logo"
+    },
+    {
+      "id": "RONART",
+      "name": "Ronart",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b401a3debca5c79a9063277943/dealer_logo"
+    },
+    {
+      "id": "ROVER",
+      "name": "Rover",
+      "count": 101,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b40203ab7f3a3ea31a97b2ceb2/dealer_logo"
+    },
+    {
+      "id": "SAAB",
+      "name": "Saab",
+      "count": 153,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b402b7eebe66c7baaaadfd5d91/dealer_logo"
+    },
+    {
+      "id": "SAIPA",
+      "name": "Saipa",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b403213e9181166afb1aac0538/dealer_logo"
+    },
+    {
+      "id": "SALEEN",
+      "name": "Saleen",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b404a7df5df6ecd1110fac6b45/dealer_logo"
+    },
+    {
+      "id": "SANTANA",
+      "name": "Santana",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b40511b8dadabf05b0d9f80fde/dealer_logo"
+    },
+    {
+      "id": "SATURN",
+      "name": "Saturn",
+      "count": 16,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b405c45d7db6dbdea8e0673090/dealer_logo"
+    },
+    {
+      "id": "SCION",
+      "name": "Scion",
+      "count": 18,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b4060995e037c152016ebfb45d/dealer_logo"
+    },
+    {
+      "id": "SEARS",
+      "name": "Sears",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b406ae06fca9510472cec25a47/dealer_logo"
+    },
+    {
+      "id": "SEAT",
+      "name": "SEAT",
+      "count": 240,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b406fd7c4de9ecbe731e2f85db/dealer_logo"
+    },
+    {
+      "id": "SERES",
+      "name": "Seres",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1672712/2a000001865404a895e580cde5b211e3800c/dealer_logo"
+    },
+    {
+      "id": "SHANGHAI_MAPLE",
+      "name": "Shanghai Maple",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b4078776457f0b1042b44d0ce0/dealer_logo"
+    },
+    {
+      "id": "SHUANGHUAN",
+      "name": "ShuangHuan",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b407e170fb022c5270b72a24fe/dealer_logo"
+    },
+    {
+      "id": "SIMCA",
+      "name": "Simca",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b4087083ef42d28dae8380d0d0/dealer_logo"
+    },
+    {
+      "id": "SKODA",
+      "name": "Skoda",
+      "count": 8562,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b408cdfb64617747069ec1bf81/dealer_logo"
+    },
+    {
+      "id": "SKYWELL",
+      "name": "Skywell",
+      "count": 70,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1535139/2a0000018008dd0d978bebf79933a094766e/dealer_logo"
+    },
+    {
+      "id": "SMART",
+      "name": "Smart",
+      "count": 251,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b4095997d2797ff454f1938070/dealer_logo"
+    },
+    {
+      "id": "SOUEAST",
+      "name": "Soueast",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b409a952f09572090c3326e7ed/dealer_logo"
+    },
+    {
+      "id": "SPECTRE",
+      "name": "Spectre",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b40a3f442faa8b22f429f49f00/dealer_logo"
+    },
+    {
+      "id": "SPYKER",
+      "name": "Spyker",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b40be19d4a55cf132d0572adac/dealer_logo"
+    },
+    {
+      "id": "SSANG_YONG",
+      "name": "SsangYong",
+      "count": 1288,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b40c3ce5f796971b896ddaaa16/dealer_logo"
+    },
+    {
+      "id": "STEYR",
+      "name": "Steyr",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/937147/2a00000179b40d01ce7f83aba54cb914b248/dealer_logo"
+    },
+    {
+      "id": "STUDEBAKER",
+      "name": "Studebaker",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b40d7d88ebc60e06bf36b0cf23/dealer_logo"
+    },
+    {
+      "id": "SUBARU",
+      "name": "Subaru",
+      "count": 2819,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b40e21de05bfdbb087d16a2cd0/dealer_logo"
+    },
+    {
+      "id": "SUZUKI",
+      "name": "Suzuki",
+      "count": 2341,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b40e751b365a8198ea89c40e91/dealer_logo"
+    },
+    {
+      "id": "TALBOT",
+      "name": "Talbot",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b40f3005399902da3cea0a478f/dealer_logo"
+    },
+    {
+      "id": "TANK",
+      "name": "Tank",
+      "count": 70,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a000001869d73ab6f1ada0b097f504b6ea2/dealer_logo"
+    },
+    {
+      "id": "TATA",
+      "name": "TATA",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b40fc0555529211546df060d4a/dealer_logo"
+    },
+    {
+      "id": "TATRA",
+      "name": "Tatra",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b41073e8607f786326d5b05347/dealer_logo"
+    },
+    {
+      "id": "TAZZARI",
+      "name": "Tazzari",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b410f409bcb4874aedbe1cd794/dealer_logo"
+    },
+    {
+      "id": "TESLA",
+      "name": "Tesla",
+      "count": 690,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b4118ec3e2b80a0329468eb0ce/dealer_logo"
+    },
+    {
+      "id": "THINK",
+      "name": "Think",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b4121cdb0950bc4706a1f3b3be/dealer_logo"
+    },
+    {
+      "id": "TIANMA",
+      "name": "Tianma",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b412e7348f5090694aa07fbce2/dealer_logo"
+    },
+    {
+      "id": "TIANYE",
+      "name": "Tianye",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b41328af4031f11a6e07f59164/dealer_logo"
+    },
+    {
+      "id": "TOFAS",
+      "name": "Tofas",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b413e48d4cfa4858cf0324a7d8/dealer_logo"
+    },
+    {
+      "id": "TOYOTA",
+      "name": "Toyota",
+      "count": 26986,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b4143e937258ee2d1943c201f0/dealer_logo"
+    },
+    {
+      "id": "TRABANT",
+      "name": "Trabant",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b414d3a80dcfec9541f84e13a9/dealer_logo"
+    },
+    {
+      "id": "TRAMONTANA",
+      "name": "Tramontana",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b41527a896fb3349e9f65caa45/dealer_logo"
+    },
+    {
+      "id": "TRIUMPH",
+      "name": "Triumph",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b415e1d9b37c04caf7b8cd3bb9/dealer_logo"
+    },
+    {
+      "id": "TRUMPCHI",
+      "name": "Trumpchi",
+      "count": 12,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000018514fc3c4dded3fba8c975103a71/dealer_logo"
+    },
+    {
+      "id": "TVR",
+      "name": "TVR",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b416509cee815089ba47437b71/dealer_logo"
+    },
+    {
+      "id": "ULTIMA",
+      "name": "Ultima",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b4171960fa57ad1c958618951e/dealer_logo"
+    },
+    {
+      "id": "VAUXHALL",
+      "name": "Vauxhall",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b41ef3791ebec8607a73a5d94d/dealer_logo"
+    },
+    {
+      "id": "VECTOR",
+      "name": "Vector",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a00000179b41f9e1e26e30c868c43cf5ad8/dealer_logo"
+    },
+    {
+      "id": "VENTURI",
+      "name": "Venturi",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b41fef18ab5be4787bd3358319/dealer_logo"
+    },
+    {
+      "id": "VOLKSWAGEN",
+      "name": "Volkswagen",
+      "count": 17970,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b420adde531d67793944f45252/dealer_logo"
+    },
+    {
+      "id": "VOLVO",
+      "name": "Volvo",
+      "count": 3534,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a0000017e057f91cfe0fd1e72ff72cb6d27/dealer_logo"
+    },
+    {
+      "id": "VORTEX",
+      "name": "Vortex",
+      "count": 198,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b44f2e009c5fde432fa97bc336/dealer_logo"
+    },
+    {
+      "id": "VOYAH",
+      "name": "Voyah",
+      "count": 278,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1535139/2a000001807167ad9023bcc9078907cba2df/dealer_logo"
+    },
+    {
+      "id": "VUHL",
+      "name": "VUHL",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a0000017e058003c14474759a2975aa7aad/dealer_logo"
+    },
+    {
+      "id": "W_MOTORS",
+      "name": "W Motors",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b45022fb2f48c40e36fb9b073d/dealer_logo"
+    },
+    {
+      "id": "WANDERER",
+      "name": "Wanderer",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b450ce2480ac0d595c089a8433/dealer_logo"
+    },
+    {
+      "id": "WARTBURG",
+      "name": "Wartburg",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b4511a949bba95453fd2ea9059/dealer_logo"
+    },
+    {
+      "id": "WELTMEISTER",
+      "name": "Weltmeister",
+      "count": 11,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a0000017e0580a36c8350d3ee48508cdfce/dealer_logo"
+    },
+    {
+      "id": "WESTFIELD",
+      "name": "Westfield",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b451ae2cbce95c01c10a4949b7/dealer_logo"
+    },
+    {
+      "id": "WEY",
+      "name": "WEY",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/787013/2a0000018601afe763d2ffe4754dfc18f21c/dealer_logo"
+    },
+    {
+      "id": "WIESMANN",
+      "name": "Wiesmann",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b451fb70318b9bb16c04bec245/dealer_logo"
+    },
+    {
+      "id": "WILLIS",
+      "name": "Willys",
+      "count": 2,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b45296cc9ad13e9abea5ec0043/dealer_logo"
+    },
+    {
+      "id": "XINKAI",
+      "name": "Xin Kai",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b452d2bd5a0070688dacb81f3e/dealer_logo"
+    },
+    {
+      "id": "XPENG",
+      "name": "Xpeng",
+      "count": 12,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b453505a99158898c1a4333bf6/dealer_logo"
+    },
+    {
+      "id": "YULON",
+      "name": "Yulon",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b453a1ec81a962cb5d2b5e161a/dealer_logo"
+    },
+    {
+      "id": "ZASTAVA",
+      "name": "Zastava",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b454364215833fd81b036f3177/dealer_logo"
+    },
+    {
+      "id": "ZEEKR",
+      "name": "Zeekr",
+      "count": 34,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000181a44d1251b729f857710761bbf1/dealer_logo"
+    },
+    {
+      "id": "ZENOS",
+      "name": "Zenos",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b454765a6fc379d8d22dbde222/dealer_logo"
+    },
+    {
+      "id": "ZENVO",
+      "name": "Zenvo",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b455563c439f55d08384964bd1/dealer_logo"
+    },
+    {
+      "id": "ZIBAR",
+      "name": "Zibar",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b455dade7abde3dcbaa9b59668/dealer_logo"
+    },
+    {
+      "id": "ZOTYE",
+      "name": "Zotye",
+      "count": 45,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b456d5c170866e483f101948eb/dealer_logo"
+    },
+    {
+      "id": "ZX",
+      "name": "ZX",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b457344775ef2e6d2890470c3a/dealer_logo"
+    },
+    {
+      "id": "AVTOKAM",
+      "name": "Автокам",
+      "count": 1,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179af75054c7c6c7b6cc3ffaf18ae/dealer_logo"
+    },
+    {
+      "id": "GAZ",
+      "name": "ГАЗ",
+      "count": 1977,
+      "popular": true,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b4583087a1fcf716d1508c195f/dealer_logo"
+    },
+    {
+      "id": "ZAZ",
+      "name": "ЗАЗ",
+      "count": 685,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b4597018ebd720d83afd4a2e58/dealer_logo"
+    },
+    {
+      "id": "ZIL",
+      "name": "ЗИЛ",
+      "count": 6,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b459cbd1672d5c49fcda112ed7/dealer_logo"
+    },
+    {
+      "id": "ZIS",
+      "name": "ЗиС",
+      "count": 3,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b45a703a0adc4b445646dd4dc8/dealer_logo"
+    },
+    {
+      "id": "IG",
+      "name": "ИЖ",
+      "count": 361,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b45b208694d0de568088dda4ff/dealer_logo"
+    },
+    {
+      "id": "KANONIR",
+      "name": "Канонир",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b45baaac163a02547a58fa3730/dealer_logo"
+    },
+    {
+      "id": "KOMBAT",
+      "name": "Комбат",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b45c6f445e2b6b86e4f434fc9f/dealer_logo"
+    },
+    {
+      "id": "LUAZ",
+      "name": "ЛуАЗ",
+      "count": 114,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/3587101/2a00000179b45d0e7d7393dd7ff24b684f5e/dealer_logo"
+    },
+    {
+      "id": "MOSCVICH",
+      "name": "Москвич",
+      "count": 1087,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/997355/2a00000179b45d55f6f37d901a4153b48f7d/dealer_logo"
+    },
+    {
+      "id": "SMZ",
+      "name": "СМЗ",
+      "count": 10,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b45dd568444618d29902bbca37/dealer_logo"
+    },
+    {
+      "id": "PROMO_AUTO",
+      "name": "Спортивные авто и Реплики",
+      "count": 21,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/216201/2a00000179b40b2053d87cb8bdd013017ecd/dealer_logo"
+    },
+    {
+      "id": "TAGAZ",
+      "name": "ТагАЗ",
+      "count": 111,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b45e16a443dc57ac0ee5e0655a/dealer_logo"
+    },
+    {
+      "id": "UAZ",
+      "name": "УАЗ",
+      "count": 2784,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1540742/2a00000179b45e958b940518a0f725ecac7e/dealer_logo"
+    },
+    {
+      "id": "E_MOBIL",
+      "name": "Ё-мобиль",
+      "count": 0,
+      "popular": false,
+      "big-logo": "//avatars.mds.yandex.net/get-verba/1030388/2a00000179b45897c0623efa5d4434453aed/dealer_logo"
+    }
+  ]
+}

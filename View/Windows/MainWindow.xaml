@@ -51,8 +51,7 @@
                                                 materialDesign:ButtonProgressAssist.Value="20"
                                                 materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
                                                 IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
-                                                Background="Transparent"
-                                                >
+                                                Background="Transparent" >
                                             <materialDesign:PackIcon Kind="Play" Height="30" Width="30" Foreground="Black"/>
                                         </Button>
                                     </Grid>
@@ -70,10 +69,7 @@
                 </Border>
             </Grid>
         </DataTemplate>
-
-
     </Window.Resources>
-
     <Grid>
         <materialDesign:Card>
             <TabControl

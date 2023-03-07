@@ -1,0 +1,536 @@
+{
+  "mainRegions": [
+    {
+      "url": "https://auto.ru/moskva/",
+      "title": "Москва",
+      "options": 0
+    },
+    {
+      "url": "https://auto.ru/sankt-peterburg/",
+      "title": "Санкт-Петербург",
+      "options": 1
+    },
+    {
+      "url": "https://auto.ru/vladimir/",
+      "title": "Владимир",
+      "options": 2
+    },
+    {
+      "url": "https://auto.ru/volgograd/",
+      "title": "Волгоград",
+      "options": 3
+    },
+    {
+      "url": "https://auto.ru/voronezh/",
+      "title": "Воронеж",
+      "options": 4
+    },
+    {
+      "url": "https://auto.ru/ekaterinburg/",
+      "title": "Екатеринбург",
+      "options": 5
+    },
+    {
+      "url": "https://auto.ru/ivanovo/",
+      "title": "Иваново",
+      "options": 6
+    },
+    {
+      "url": "https://auto.ru/kazan/",
+      "title": "Казань",
+      "options": 7
+    },
+    {
+      "url": "https://auto.ru/kaluga/",
+      "title": "Калуга",
+      "options": 8
+    },
+    {
+      "url": "https://auto.ru/kostroma/",
+      "title": "Кострома",
+      "options": 9
+    },
+    {
+      "url": "https://auto.ru/krasnodar/",
+      "title": "Краснодар",
+      "options": 10
+    },
+    {
+      "url": "https://auto.ru/krasnoyarsk/",
+      "title": "Красноярск",
+      "options": 11
+    },
+    {
+      "url": "https://auto.ru/nizhniy_novgorod/",
+      "title": "Нижний Новгород",
+      "options": 12
+    },
+    {
+      "url": "https://auto.ru/novosibirsk/",
+      "title": "Новосибирск",
+      "options": 13
+    },
+    {
+      "url": "https://auto.ru/omsk/",
+      "title": "Омск",
+      "options": 14
+    },
+    {
+      "url": "https://auto.ru/perm/",
+      "title": "Пермь",
+      "options": 15
+    },
+    {
+      "url": "https://auto.ru/rostov-na-donu/",
+      "title": "Ростов-на-Дону",
+      "options": 16
+    },
+    {
+      "url": "https://auto.ru/samara/",
+      "title": "Самара",
+      "options": 17
+    },
+    {
+      "url": "https://auto.ru/saratov/",
+      "title": "Саратов",
+      "options": 18
+    },
+    {
+      "url": "https://auto.ru/tver/",
+      "title": "Тверь",
+      "options": 19
+    },
+    {
+      "url": "https://auto.ru/tula/",
+      "title": "Тула",
+      "options": 20
+    },
+    {
+      "url": "https://auto.ru/ufa/",
+      "title": "Уфа",
+      "options": 21
+    },
+    {
+      "url": "https://auto.ru/chelyabinsk/",
+      "title": "Челябинск",
+      "options": 22
+    },
+    {
+      "url": "https://auto.ru/yaroslavl/",
+      "title": "Ярославль",
+      "options": 23
+    }
+  ],
+  "subRegions": [
+    {
+      "url": "https://auto.ru/altayskiy_kray/",
+      "title": "Алтайский край",
+      "options": 0
+    },
+    {
+      "url": "https://auto.ru/amurskaya_oblast/",
+      "title": "Амурская область",
+      "options": 1
+    },
+    {
+      "url": "https://auto.ru/arhangelskaya_oblast/",
+      "title": "Архангельская область",
+      "options": 2
+    },
+    {
+      "url": "https://auto.ru/astrahanskaya_oblast/",
+      "title": "Астраханская область",
+      "options": 3
+    },
+    {
+      "url": "https://auto.ru/belgorodskaya_oblast/",
+      "title": "Белгородская область",
+      "options": 4
+    },
+    {
+      "url": "https://auto.ru/bryanskaya_oblast/",
+      "title": "Брянская область",
+      "options": 5
+    },
+    {
+      "url": "https://auto.ru/vladimirskaya_oblast/",
+      "title": "Владимирская область",
+      "options": 6
+    },
+    {
+      "url": "https://auto.ru/volgogradskaya_oblast/",
+      "title": "Волгоградская область",
+      "options": 7
+    },
+    {
+      "url": "https://auto.ru/vologodskaya_oblast/",
+      "title": "Вологодская область",
+      "options": 8
+    },
+    {
+      "url": "https://auto.ru/voronezhskaya_oblast/",
+      "title": "Воронежская область",
+      "options": 9
+    },
+    {
+      "url": "https://auto.ru/evreyskaya_ao/",
+      "title": "Еврейская автономная область",
+      "options": 10
+    },
+    {
+      "url": "https://auto.ru/zabaykalskiy_kray/",
+      "title": "Забайкальский край",
+      "options": 11
+    },
+    {
+      "url": "https://auto.ru/ivanovskaya_oblast/",
+      "title": "Ивановская область",
+      "options": 12
+    },
+    {
+      "url": "https://auto.ru/irkutskaya_oblast/",
+      "title": "Иркутская область",
+      "options": 13
+    },
+    {
+      "url": "https://auto.ru/kabardino-balkariya/",
+      "title": "Кабардино-Балкарская Республика",
+      "options": 14
+    },
+    {
+      "url": "https://auto.ru/kaliningradskaya_oblast/",
+      "title": "Калининградская область",
+      "options": 15
+    },
+    {
+      "url": "https://auto.ru/kaluzhskaya_oblast/",
+      "title": "Калужская область",
+      "options": 16
+    },
+    {
+      "url": "https://auto.ru/kamchatskiy_kray/",
+      "title": "Камчатский край",
+      "options": 17
+    },
+    {
+      "url": "https://auto.ru/karachaevo-cherkesiya/",
+      "title": "Карачаево-Черкесская Республика",
+      "options": 18
+    },
+    {
+      "url": "https://auto.ru/kemerovskaya_oblast/",
+      "title": "Кемеровская область",
+      "options": 19
+    },
+    {
+      "url": "https://auto.ru/kirovskaya_oblast/",
+      "title": "Кировская область",
+      "options": 20
+    },
+    {
+      "url": "https://auto.ru/kostromskaya_oblast/",
+      "title": "Костромская область",
+      "options": 21
+    },
+    {
+      "url": "https://auto.ru/krasnodarskiy_kray/",
+      "title": "Краснодарский край",
+      "options": 22
+    },
+    {
+      "url": "https://auto.ru/krasnoyarskiy_kray/",
+      "title": "Красноярский край",
+      "options": 23
+    },
+    {
+      "url": "https://auto.ru/kurganskaya_oblast/",
+      "title": "Курганская область",
+      "options": 24
+    },
+    {
+      "url": "https://auto.ru/kurskaya_oblast/",
+      "title": "Курская область",
+      "options": 25
+    },
+    {
+      "url": "https://auto.ru/lipetskaya_oblast/",
+      "title": "Липецкая область",
+      "options": 26
+    },
+    {
+      "url": "https://auto.ru/magadanskaya_oblast/",
+      "title": "Магаданская область",
+      "options": 27
+    },
+    {
+      "url": "https://auto.ru/moskovskaya_oblast/",
+      "title": "Москва и Московская область",
+      "options": 28
+    },
+    {
+      "url": "https://auto.ru/murmanskaya_oblast/",
+      "title": "Мурманская область",
+      "options": 29
+    },
+    {
+      "url": "https://auto.ru/nenetskiy_ao/",
+      "title": "Ненецкий автономный округ",
+      "options": 30
+    },
+    {
+      "url": "https://auto.ru/nizhegorodskaya_oblast/",
+      "title": "Нижегородская область",
+      "options": 31
+    },
+    {
+      "url": "https://auto.ru/novgorodskaya_oblast/",
+      "title": "Новгородская область",
+      "options": 32
+    },
+    {
+      "url": "https://auto.ru/novosibirskaya_oblast/",
+      "title": "Новосибирская область",
+      "options": 33
+    },
+    {
+      "url": "https://auto.ru/omskaya_oblast/",
+      "title": "Омская область",
+      "options": 34
+    },
+    {
+      "url": "https://auto.ru/orenburgskaya_oblast/",
+      "title": "Оренбургская область",
+      "options": 35
+    },
+    {
+      "url": "https://auto.ru/orlovskaya_oblast/",
+      "title": "Орловская область",
+      "options": 36
+    },
+    {
+      "url": "https://auto.ru/penzenskaya_oblast/",
+      "title": "Пензенская область",
+      "options": 37
+    },
+    {
+      "url": "https://auto.ru/permskiy_kray/",
+      "title": "Пермский край",
+      "options": 38
+    },
+    {
+      "url": "https://auto.ru/primorskiy_kray/",
+      "title": "Приморский край",
+      "options": 39
+    },
+    {
+      "url": "https://auto.ru/pskovskaya_oblast/",
+      "title": "Псковская область",
+      "options": 40
+    },
+    {
+      "url": "https://auto.ru/adygeya/",
+      "title": "Республика Адыгея",
+      "options": 41
+    },
+    {
+      "url": "https://auto.ru/altay/",
+      "title": "Республика Алтай",
+      "options": 42
+    },
+    {
+      "url": "https://auto.ru/bashkortostan/",
+      "title": "Республика Башкортостан",
+      "options": 43
+    },
+    {
+      "url": "https://auto.ru/buryatiya/",
+      "title": "Республика Бурятия",
+      "options": 44
+    },
+    {
+      "url": "https://auto.ru/dagestan/",
+      "title": "Республика Дагестан",
+      "options": 45
+    },
+    {
+      "url": "https://auto.ru/ingushetiya/",
+      "title": "Республика Ингушетия",
+      "options": 46
+    },
+    {
+      "url": "https://auto.ru/kalmykiya/",
+      "title": "Республика Калмыкия",
+      "options": 47
+    },
+    {
+      "url": "https://auto.ru/kareliya/",
+      "title": "Республика Карелия",
+      "options": 48
+    },
+    {
+      "url": "https://auto.ru/komi/",
+      "title": "Республика Коми",
+      "options": 49
+    },
+    {
+      "url": "https://auto.ru/krym/",
+      "title": "Республика Крым",
+      "options": 50
+    },
+    {
+      "url": "https://auto.ru/mariy_el/",
+      "title": "Республика Марий Эл",
+      "options": 51
+    },
+    {
+      "url": "https://auto.ru/mordoviya/",
+      "title": "Республика Мордовия",
+      "options": 52
+    },
+    {
+      "url": "https://auto.ru/saha_yakutiya/",
+      "title": "Республика Саха (Якутия)",
+      "options": 53
+    },
+    {
+      "url": "https://auto.ru/severnaya_osetiya/",
+      "title": "Республика Северная Осетия — Алания",
+      "options": 54
+    },
+    {
+      "url": "https://auto.ru/tatarstan/",
+      "title": "Республика Татарстан",
+      "options": 55
+    },
+    {
+      "url": "https://auto.ru/tyva/",
+      "title": "Республика Тыва",
+      "options": 56
+    },
+    {
+      "url": "https://auto.ru/hakasiya/",
+      "title": "Республика Хакасия",
+      "options": 57
+    },
+    {
+      "url": "https://auto.ru/rostovskaya_oblast/",
+      "title": "Ростовская область",
+      "options": 58
+    },
+    {
+      "url": "https://auto.ru/ryazanskaya_oblast/",
+      "title": "Рязанская область",
+      "options": 59
+    },
+    {
+      "url": "https://auto.ru/samarskaya_oblast/",
+      "title": "Самарская область",
+      "options": 60
+    },
+    {
+      "url": "https://auto.ru/leningradskaya_oblast/",
+      "title": "Санкт-Петербург и Ленинградская область",
+      "options": 61
+    },
+    {
+      "url": "https://auto.ru/saratovskaya_oblast/",
+      "title": "Саратовская область",
+      "options": 62
+    },
+    {
+      "url": "https://auto.ru/sahalinskaya_oblast/",
+      "title": "Сахалинская область",
+      "options": 63
+    },
+    {
+      "url": "https://auto.ru/sverdlovskaya_oblast/",
+      "title": "Свердловская область",
+      "options": 64
+    },
+    {
+      "url": "https://auto.ru/smolenskaya_oblast/",
+      "title": "Смоленская область",
+      "options": 65
+    },
+    {
+      "url": "https://auto.ru/stavropolskiy_kray/",
+      "title": "Ставропольский край",
+      "options": 66
+    },
+    {
+      "url": "https://auto.ru/tambovskaya_oblast/",
+      "title": "Тамбовская область",
+      "options": 67
+    },
+    {
+      "url": "https://auto.ru/tverskaya_oblast/",
+      "title": "Тверская область",
+      "options": 68
+    },
+    {
+      "url": "https://auto.ru/tomskaya_oblast/",
+      "title": "Томская область",
+      "options": 69
+    },
+    {
+      "url": "https://auto.ru/tulskaya_oblast/",
+      "title": "Тульская область",
+      "options": 70
+    },
+    {
+      "url": "https://auto.ru/tyumenskaya_oblast/",
+      "title": "Тюменская область",
+      "options": 71
+    },
+    {
+      "url": "https://auto.ru/udmurtiya/",
+      "title": "Удмуртская Республика",
+      "options": 72
+    },
+    {
+      "url": "https://auto.ru/ulyanovskaya_oblast/",
+      "title": "Ульяновская область",
+      "options": 73
+    },
+    {
+      "url": "https://auto.ru/habarovskiy_kray/",
+      "title": "Хабаровский край",
+      "options": 74
+    },
+    {
+      "url": "https://auto.ru/hanty-mansiyskiy_ao/",
+      "title": "Ханты-Мансийский автономный округ - Югра",
+      "options": 75
+    },
+    {
+      "url": "https://auto.ru/chelyabinskaya_oblast/",
+      "title": "Челябинская область",
+      "options": 76
+    },
+    {
+      "url": "https://auto.ru/chechenskaya_respublika/",
+      "title": "Чеченская Республика",
+      "options": 77
+    },
+    {
+      "url": "https://auto.ru/chuvashskiya/",
+      "title": "Чувашская Республика",
+      "options": 78
+    },
+    {
+      "url": "https://auto.ru/chukotskiy_ao/",
+      "title": "Чукотский автономный округ",
+      "options": 79
+    },
+    {
+      "url": "https://auto.ru/yamalo-nenetskiy_ao/",
+      "title": "Ямало-Ненецкий автономный округ",
+      "options": 80
+    },
+    {
+      "url": "https://auto.ru/yaroslavskaya_oblast/",
+      "title": "Ярославская область",
+      "options": 81
+    }
+  ]
+}
