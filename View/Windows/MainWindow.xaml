@@ -69,12 +69,7 @@
                         <StackPanel
                             Margin="0 7 0 0"
                             Orientation="Horizontal"
-                            VerticalAlignment="Top">
-                            <!--<TextBlock
-                            Width="Auto"
-                            Margin="8"
-                            Text="Добавить парсер"
-                            VerticalAlignment="Center" />-->
+                            VerticalAlignment="Top">                            
                             <Button
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Left"
