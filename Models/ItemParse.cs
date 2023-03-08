@@ -9,15 +9,19 @@ namespace AutoRuScrapper.Models
     public class ItemParse
     {
         public int Id { get; set; }
-        public string Marka { get; set; }
+        public string Mark { get; set; }
         public string Model { get; set; }
+        public string Region { get; set; }
         public DateTime YearOfProduction { get; set; }
+        public DateTime StartTime { get; set; } 
+        public string ParsingUrl { get; set; }
+        public bool IsActive { get; set; } = false; 
 
         public ItemParse() { }
 
-        public ItemParse(string marka, string model, DateTime yearOfProduction)
+        public ItemParse(string mark, string model, DateTime yearOfProduction)
         {
-            this.Marka = marka;
+            this.Mark = mark;
             this.Model = model;
             this.YearOfProduction = yearOfProduction;
         }
