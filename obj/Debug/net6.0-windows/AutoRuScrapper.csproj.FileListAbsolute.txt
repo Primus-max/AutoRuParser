@@ -31,3 +31,4 @@ Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\Resources\Base.
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\View\Windows\MainWindow.g.cs
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\View\Windows\MainWindow.baml
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

@@ -1,6 +1,7 @@
 ﻿using AutoRuScrapper.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,9 +32,8 @@ namespace AutoRuScrapper
             // Создаем новый элемент, используя шаблон
             DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
             FrameworkElement newItem = (FrameworkElement)template.LoadContent();
-
             // Создаем новый экземпляр объекта
-            ItemParse item = new();
+            //var newItem = (FrameworkElement)Activator.CreateInstance((Type)template.DataType);
 
             // Находим нужный контейнер на форме, в который будем добавлять новый элемент
             Grid gridContainer = (Grid)FindName("ParsingListGrid");
@@ -42,9 +42,7 @@ namespace AutoRuScrapper
             gridContainer.Children.Add(newItem);
 
             // Устанавливаем новый контекст данных для элемента
-            newItem.DataContext = item;
+            //newItem.DataContext = new YourViewModel();
         }
-
-
     }
 }

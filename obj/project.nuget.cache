@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IAje0JdvFBCSgZF8kclzaw/w2Sw6KzfZu8OhuxNyl/aNJg0p2/fC49y3NHXojYK13ZxMqV7p3AFtvhEaxLW7ww==",
+  "dgSpecHash": "q6nGtkeclf9kzS35YTz9uUbHZJZueeDR+BkTU1R9r8mQiDX3fiMoezHkWjKZ6fB+fngFpbbfBdVLyFtvRWwwUw==",
   "success": true,
   "projectFilePath": "Z:\\Programming\\ProjectC#\\AutoRuScrapper\\AutoRuScrapper.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\SKTV-1\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
     "C:\\Users\\SKTV-1\\.nuget\\packages\\materialdesignthemes.mahapps\\0.2.8\\materialdesignthemes.mahapps.0.2.8.nupkg.sha512",
     "C:\\Users\\SKTV-1\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\SKTV-1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\SKTV-1\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []

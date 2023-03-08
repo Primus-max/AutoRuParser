@@ -24,50 +24,126 @@
     </Window.DataContext>
     <Window.Resources>
         <DataTemplate x:Key="ParsingItemTemplate">
-            <Grid>
-                <Border Padding="5 7 5 7">
-                    <materialDesign:Card>
-                        <StackPanel>
-                            <Expander HorizontalAlignment="Stretch">
-                                <Expander.Header>
-                                    <Grid>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="73*" />
-                                            <ColumnDefinition Width="14*"/>
-                                        </Grid.ColumnDefinitions>
-                                        <StackPanel
-                                            Grid.Column="0"
-                                            Orientation="Horizontal"
-                                            Width="Auto"
-                                            Grid.ColumnSpan="2">
-                                            <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                            <TextBlock Text="{Binding Marka}" Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                            <TextBlock Text="Модель: " Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                            <TextBlock Text="{Binding Model}" Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                        </StackPanel>
-                                        <Button Grid.Column="1"
-                                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                                                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
-                                                materialDesign:ButtonProgressAssist.Value="20"
-                                                materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
-                                                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
-                                                Background="Transparent" >
-                                            <materialDesign:PackIcon Kind="Play" Height="30" Width="30" Foreground="Black"/>
-                                        </Button>
-                                    </Grid>
-                                </Expander.Header>
-                                <StackPanel Orientation="Vertical"
-                                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
-                                            Margin="24,8,24,16">
-                                    <TextBlock Text="{Binding Model}" />
-                                    <TextBlock Style="{StaticResource MaterialDesignOverlineTextBlock}" />
+            <Border Padding="5 7 5 7"
+                    Margin="0 0 0 30">
+                <materialDesign:Card>
+                    <StackPanel>
+                        <Expander HorizontalAlignment="Stretch">
+                            <Expander.Header>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="73*" />
+                                        <ColumnDefinition Width="10*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel
+                                        Grid.Column="0"
+                                        Orientation="Horizontal"
+                                        Width="Auto"
+                                        Grid.ColumnSpan="2">
+                                        <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        <TextBlock Text="BMW" Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        <TextBlock Text="Модель: " Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                        <TextBlock Text="M 1" Margin="5 0 10 0" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                    <Button Grid.Column="1"
+                                            Width="25"
+                                            Height="25"
+                                            Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
+                                            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                                            materialDesign:ButtonProgressAssist.Value="20"
+                                            materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
+                                            Background="Transparent" >
+                                        <materialDesign:PackIcon Kind="Play" Height="17" Width="17" Foreground="Black"/>
+                                    </Button>
+                                </Grid>
+                            </Expander.Header>
+                            <Border Padding="40 0 0 0">
+                                <StackPanel>
+                                    <StackPanel
+                                        Margin="0 0 0 20"
+                                        Orientation="Horizontal"
+                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}" >
+                                        <ComboBox
+                                            Margin="0"
+                                            Padding="5 0 0 5"
+                                            Style="{StaticResource MaterialDesignFilledComboBox}"
+                                            materialDesign:HintAssist.Hint="Марка"
+                                            IsEditable="True"
+                                            ItemsSource="{Binding ListMarkNames}"
+
+                                            materialDesign:TextFieldAssist.HasClearButton="True"
+                                            Width="220" >
+
+                                        </ComboBox>
+                                        <ComboBox
+                                            Margin="30 0 0 0"
+                                            Padding="5 0 0 5"
+                                            Style="{StaticResource MaterialDesignFilledComboBox}"
+                                            materialDesign:HintAssist.Hint="Модель"
+                                            IsEditable="True"
+
+                                            materialDesign:TextFieldAssist.HasClearButton="True"
+                                            Width="220" >
+                                            <!--<ComboBox.SelectedItem>
+                                            <Binding
+                                            Path="Model"
+                                            Mode="TwoWay"
+                                            UpdateSourceTrigger="PropertyChanged">
+                                            </Binding>
+                                            </ComboBox.SelectedItem>-->
+                                        </ComboBox>
+                                    </StackPanel>
+                                    <StackPanel
+                                        Margin="0 0 0 20"
+                                        Orientation="Horizontal"
+                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}" HorizontalAlignment="Stretch">
+                                        <ComboBox
+                                            Margin="0 0 0 0"
+                                            Padding="5 0 0 5"
+                                            Style="{StaticResource MaterialDesignFilledComboBox}"
+                                            materialDesign:HintAssist.Hint="Регион"
+                                            IsEditable="True"
+                                            ItemsSource="{Binding AllRegions}"
+                                            materialDesign:TextFieldAssist.HasClearButton="True"
+                                            Width="220" >
+                                            <!--<ComboBox.SelectedItem>
+                                            <Binding
+                                            Path="Region"
+                                            Mode="TwoWay"
+                                            UpdateSourceTrigger="PropertyChanged">
+                                            </Binding>
+                                            </ComboBox.SelectedItem>-->
+                                        </ComboBox>
+                                    </StackPanel>
+                                    <StackPanel HorizontalAlignment="Left">
+                                        <TextBox
+                                            Width="300"
+                                            materialDesign:HintAssist.Hint="Прямая ссылка" />
+                                    </StackPanel>
+
+                                    <StackPanel Margin="0 20 0 20 "
+                                                Orientation="Horizontal"
+                                                VerticalAlignment="Center">
+                                        <TextBlock Margin="0 0 30 0"
+                                                   Text="Запускать каждые"
+                                                   VerticalAlignment="Center"/>
+                                        <materialDesign:TimePicker
+                                            materialDesign:HintAssist.Hint="Время"
+                                            Is24Hours="True"
+                                            x:Name="WithSecondsTimePicker"
+                                            WithSeconds="False"
+                                            Width="100" />
+                                    </StackPanel>
+
                                 </StackPanel>
-                            </Expander>
-                            <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
-                        </StackPanel>
-                    </materialDesign:Card>
-                </Border>
-            </Grid>
+                            </Border>
+
+                        </Expander>
+                        <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
+                    </StackPanel>
+                </materialDesign:Card>
+            </Border>
+
         </DataTemplate>
     </Window.Resources>
     <Grid>
@@ -99,130 +175,7 @@
                         </StackPanel>
 
                         <Grid x:Name="ParsingListGrid">
-                            <Border Padding="5 7 5 7">
-                                <materialDesign:Card>
-                                    <StackPanel>
-                                        <Expander HorizontalAlignment="Stretch">
-                                            <Expander.Header>
-                                                <Grid>
-                                                    <Grid.ColumnDefinitions>
-                                                        <ColumnDefinition Width="73*" />
-                                                        <ColumnDefinition Width="10*"/>
-                                                    </Grid.ColumnDefinitions>
-                                                    <StackPanel
-                                                        Grid.Column="0"
-                                                        Orientation="Horizontal"
-                                                        Width="Auto"
-                                                        Grid.ColumnSpan="2">
-                                                        <TextBlock Text="Марка: " Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                                        <TextBlock Text="{Binding Marka}" Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                                        <TextBlock Text="Модель: " Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                                        <TextBlock Text="{Binding Model}" Margin="5 0 10 0" VerticalAlignment="Center"/>
-                                                    </StackPanel>
-                                                    <Button Grid.Column="1"
-                                                            Width="25"
-                                                            Height="25"
-                                                            Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
-                                                            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
-                                                            materialDesign:ButtonProgressAssist.Value="20"
-                                                            materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
-                                                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
-                                                            Background="Transparent" >
-                                                        <materialDesign:PackIcon Kind="Play" Height="17" Width="17" Foreground="Black"/>
-                                                    </Button>
-                                                </Grid>
-                                            </Expander.Header>
-                                            <Border Padding="40 0 0 0">
-                                                <StackPanel>
-                                                    <StackPanel
-                                                        Margin="0 0 0 20"
-                                                        Orientation="Horizontal"
-                                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}" >
-                                                        <ComboBox
-                                                            Margin="0"
-                                                            Padding="5 0 0 5"
-                                                            Style="{StaticResource MaterialDesignFilledComboBox}"
-                                                            materialDesign:HintAssist.Hint="Марка"
-                                                            IsEditable="True"
-                                                            ItemsSource="{Binding ShortStringList}"
-                                                            materialDesign:TextFieldAssist.HasClearButton="True"
-                                                            Width="220" >
-                                                            <ComboBox.SelectedItem>
-                                                                <Binding
-                                                                    Path="SelectedValidationFilled"
-                                                                    Mode="TwoWay"
-                                                                    UpdateSourceTrigger="PropertyChanged">
-                                                                </Binding>
-                                                            </ComboBox.SelectedItem>
-                                                        </ComboBox>
-                                                        <ComboBox
-                                                            Margin="30 0 0 0"
-                                                            Padding="5 0 0 5"
-                                                            Style="{StaticResource MaterialDesignFilledComboBox}"
-                                                            materialDesign:HintAssist.Hint="Модель"
-                                                            IsEditable="True"
-                                                            ItemsSource="{Binding ShortStringList}"
-                                                            materialDesign:TextFieldAssist.HasClearButton="True"
-                                                            Width="220" >
-                                                            <ComboBox.SelectedItem>
-                                                                <Binding
-                                                                    Path="SelectedValidationFilled"
-                                                                    Mode="TwoWay"
-                                                                    UpdateSourceTrigger="PropertyChanged">
-                                                                </Binding>
-                                                            </ComboBox.SelectedItem>
-                                                        </ComboBox>
-                                                    </StackPanel>
-                                                    <StackPanel
-                                                        Margin="0 0 0 20"
-                                                        Orientation="Horizontal"
-                                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}" HorizontalAlignment="Stretch">
-                                                        <ComboBox
-                                                            Margin="0 0 0 0"
-                                                            Padding="5 0 0 5"
-                                                            Style="{StaticResource MaterialDesignFilledComboBox}"
-                                                            materialDesign:HintAssist.Hint="Регион"
-                                                            IsEditable="True"
-                                                            ItemsSource="{Binding ShortStringList}"
-                                                            materialDesign:TextFieldAssist.HasClearButton="True"
-                                                            Width="220" >
-                                                            <ComboBox.SelectedItem>
-                                                                <Binding
-                                                                    Path="SelectedValidationFilled"
-                                                                    Mode="TwoWay"
-                                                                    UpdateSourceTrigger="PropertyChanged">
-                                                                </Binding>
-                                                            </ComboBox.SelectedItem>
-                                                        </ComboBox>
-                                                    </StackPanel>
-                                                    <StackPanel HorizontalAlignment="Left">
-                                                        <TextBox
-                                                            Width="300"
-                                                            materialDesign:HintAssist.Hint="Прямая ссылка" />
-                                                    </StackPanel>
 
-                                                    <StackPanel Margin="0 20 0 20 "
-                                                                Orientation="Horizontal"
-                                                                VerticalAlignment="Center">
-                                                        <TextBlock Margin="0 0 30 0"
-                                                                   Text="Запускать каждые"
-                                                                   VerticalAlignment="Center"/>
-                                                        <materialDesign:TimePicker
-                                                            materialDesign:HintAssist.Hint="Время"
-                                                            Is24Hours="{Binding IsChecked, ElementName=Is24HourCheckbox}"
-                                                            x:Name="WithSecondsTimePicker"
-                                                            WithSeconds="False"
-                                                            Width="100" />
-                                                    </StackPanel>
-
-                                                </StackPanel>
-                                            </Border>
-
-                                        </Expander>
-                                        <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
-                                    </StackPanel>
-                                </materialDesign:Card>
-                            </Border>
                         </Grid>
 
                     </StackPanel>

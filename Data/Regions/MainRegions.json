@@ -1,0 +1,124 @@
+{
+  "mainRegions": [
+    {
+      "url": "https://auto.ru/moskva/",
+      "title": "Москва",
+      "options": 0
+    },
+    {
+      "url": "https://auto.ru/sankt-peterburg/",
+      "title": "Санкт-Петербург",
+      "options": 1
+    },
+    {
+      "url": "https://auto.ru/vladimir/",
+      "title": "Владимир",
+      "options": 2
+    },
+    {
+      "url": "https://auto.ru/volgograd/",
+      "title": "Волгоград",
+      "options": 3
+    },
+    {
+      "url": "https://auto.ru/voronezh/",
+      "title": "Воронеж",
+      "options": 4
+    },
+    {
+      "url": "https://auto.ru/ekaterinburg/",
+      "title": "Екатеринбург",
+      "options": 5
+    },
+    {
+      "url": "https://auto.ru/ivanovo/",
+      "title": "Иваново",
+      "options": 6
+    },
+    {
+      "url": "https://auto.ru/kazan/",
+      "title": "Казань",
+      "options": 7
+    },
+    {
+      "url": "https://auto.ru/kaluga/",
+      "title": "Калуга",
+      "options": 8
+    },
+    {
+      "url": "https://auto.ru/kostroma/",
+      "title": "Кострома",
+      "options": 9
+    },
+    {
+      "url": "https://auto.ru/krasnodar/",
+      "title": "Краснодар",
+      "options": 10
+    },
+    {
+      "url": "https://auto.ru/krasnoyarsk/",
+      "title": "Красноярск",
+      "options": 11
+    },
+    {
+      "url": "https://auto.ru/nizhniy_novgorod/",
+      "title": "Нижний Новгород",
+      "options": 12
+    },
+    {
+      "url": "https://auto.ru/novosibirsk/",
+      "title": "Новосибирск",
+      "options": 13
+    },
+    {
+      "url": "https://auto.ru/omsk/",
+      "title": "Омск",
+      "options": 14
+    },
+    {
+      "url": "https://auto.ru/perm/",
+      "title": "Пермь",
+      "options": 15
+    },
+    {
+      "url": "https://auto.ru/rostov-na-donu/",
+      "title": "Ростов-на-Дону",
+      "options": 16
+    },
+    {
+      "url": "https://auto.ru/samara/",
+      "title": "Самара",
+      "options": 17
+    },
+    {
+      "url": "https://auto.ru/saratov/",
+      "title": "Саратов",
+      "options": 18
+    },
+    {
+      "url": "https://auto.ru/tver/",
+      "title": "Тверь",
+      "options": 19
+    },
+    {
+      "url": "https://auto.ru/tula/",
+      "title": "Тула",
+      "options": 20
+    },
+    {
+      "url": "https://auto.ru/ufa/",
+      "title": "Уфа",
+      "options": 21
+    },
+    {
+      "url": "https://auto.ru/chelyabinsk/",
+      "title": "Челябинск",
+      "options": 22
+    },
+    {
+      "url": "https://auto.ru/yaroslavl/",
+      "title": "Ярославль",
+      "options": 23
+    }
+  ]
+}

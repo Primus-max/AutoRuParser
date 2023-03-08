@@ -13,17 +13,23 @@ namespace AutoRuScrapper.Models
         public string Model { get; set; }
         public string Region { get; set; }
         public DateTime YearOfProduction { get; set; }
-        public DateTime StartTime { get; set; } 
+        public DateTime StartTime { get; set; }
         public string ParsingUrl { get; set; }
-        public bool IsActive { get; set; } = false; 
+        public bool IsActive { get; set; } = false;
 
         public ItemParse() { }
 
-        public ItemParse(string mark, string model, DateTime yearOfProduction)
+        public ItemParse(string mark, string model, DateTime yearOfProduction, string region, DateTime startTime, string parsingUrl, bool isActive)
         {
             this.Mark = mark;
             this.Model = model;
+            this.Region = region;
+            this.StartTime = startTime;
+            this.ParsingUrl = parsingUrl;
+            this.IsActive = isActive;
             this.YearOfProduction = yearOfProduction;
+
+
         }
     }
 }
