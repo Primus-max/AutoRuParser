@@ -17,6 +17,12 @@ namespace AutoRuScrapper.ViewModels
     {
 
         #region Марки машин
+        private Mark _selectedMark;
+        public Mark SelectedMark
+        {
+            get => _selectedMark;
+            set => Set(ref _selectedMark, value);
+        }
 
         private List<Mark> _listMarks;
         public List<Mark> ListMarks

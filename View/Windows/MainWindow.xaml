@@ -71,6 +71,7 @@
                                             IsEditable="True"
                                             ItemsSource="{Binding ListMarks}"
                                             DisplayMemberPath="Name"
+                                            SelectedItem="{Binding SelectedMark}"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220" >
                                         </ComboBox>
@@ -82,7 +83,7 @@
                                             IsEditable="True"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220"
-                                            SelectedItem="{Binding SelectedRegion}">
+                                            >
                                             <!--<ComboBox.SelectedItem>
                                             <Binding
                                             Path="Model"
@@ -104,6 +105,7 @@
                                             IsEditable="True"
                                             ItemsSource="{Binding AllRegions}"
                                             DisplayMemberPath="Title"
+                                            SelectedItem="{Binding SelectedRegion}"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220" >
                                             <!--<ComboBox.SelectedItem>
