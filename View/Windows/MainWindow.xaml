@@ -73,7 +73,6 @@
                                             DisplayMemberPath="Name"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220" >
-
                                         </ComboBox>
                                         <ComboBox
                                             Margin="30 0 0 0"
@@ -81,9 +80,9 @@
                                             Style="{StaticResource MaterialDesignFilledComboBox}"
                                             materialDesign:HintAssist.Hint="Модель"
                                             IsEditable="True"
-
                                             materialDesign:TextFieldAssist.HasClearButton="True"
-                                            Width="220" >
+                                            Width="220"
+                                            SelectedItem="{Binding SelectedRegion}">
                                             <!--<ComboBox.SelectedItem>
                                             <Binding
                                             Path="Model"
@@ -135,7 +134,6 @@
                                             WithSeconds="False"
                                             Width="100" />
                                     </StackPanel>
-
                                 </StackPanel>
                             </Border>
 
@@ -176,7 +174,7 @@
                         </StackPanel>
 
                         <Grid x:Name="ParsingListGrid">
-
+                            <TextBlock Text="{Binding SelectedRegion}"></TextBlock>
                         </Grid>
 
                     </StackPanel>

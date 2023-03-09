@@ -29,6 +29,13 @@ namespace AutoRuScrapper.ViewModels
 
         #region Регионы
 
+        private Region _selectedRegion;
+        public Region SelectedRegion
+        {
+            get => _selectedRegion;
+            set => Set(ref _selectedRegion, value);
+        }
+
         private List<Region> _listMainRegions;
         public List<Region> ListMainRegions
         {
@@ -85,14 +92,14 @@ namespace AutoRuScrapper.ViewModels
                 string mainRegionjson = File.ReadAllText(@"Z:\Programming\ProjectC#\AutoRuScrapper\Data\Regions\MainRegions.json");
                 ListMainRegions? listMainRegions = JsonConvert.DeserializeObject<ListMainRegions>(mainRegionjson);
 
-                if(listMainRegions?.MainRegions != null)
-                ListMainRegions = listMainRegions.MainRegions;
+                if (listMainRegions?.MainRegions != null)
+                    ListMainRegions = listMainRegions.MainRegions;
                 #endregion
 
                 #region Области
                 string subRegionjson = File.ReadAllText(@"Z:\Programming\ProjectC#\AutoRuScrapper\Data\Regions\SubRegions.json");
                 ListSubRegions? listSubRegions = JsonConvert.DeserializeObject<ListSubRegions>(subRegionjson);
-                
+
                 if (listSubRegions?.SubRegions != null)
                     ListSubRegions = listSubRegions.SubRegions;
                 #endregion
