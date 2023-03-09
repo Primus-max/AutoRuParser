@@ -69,8 +69,8 @@
                                             Style="{StaticResource MaterialDesignFilledComboBox}"
                                             materialDesign:HintAssist.Hint="Марка"
                                             IsEditable="True"
-                                            ItemsSource="{Binding ListMarkNames}"
-
+                                            ItemsSource="{Binding ListMarks}"
+                                            DisplayMemberPath="Name"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220" >
 
@@ -104,6 +104,7 @@
                                             materialDesign:HintAssist.Hint="Регион"
                                             IsEditable="True"
                                             ItemsSource="{Binding AllRegions}"
+                                            DisplayMemberPath="Title"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
                                             Width="220" >
                                             <!--<ComboBox.SelectedItem>

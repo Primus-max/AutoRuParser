@@ -1,5 +1,4 @@
-﻿using AutoRuScrapper.Interfaces;
-using AutoRuScrapper.Models;
+﻿using AutoRuScrapper.Models;
 using AutoRuScrapper.ViewModels.Base;
 using Newtonsoft.Json;
 using System;
@@ -26,47 +25,26 @@ namespace AutoRuScrapper.ViewModels
             set => Set(ref _listMarks, value);
         }
 
-        private List<string> _lstMarkNames;
-        public List<string> ListMarkNames
-        {
-            get => _lstMarkNames;
-            set => Set(ref _lstMarkNames, value);
-        }
-
         #endregion
 
         #region Регионы
 
-        private List<MainRegion> _listMainRegions;
-        public List<MainRegion> ListMainRegions
+        private List<Region> _listMainRegions;
+        public List<Region> ListMainRegions
         {
             get => _listMainRegions;
             set => Set(ref _listMainRegions, value);
         }
 
-        private List<string> _listMainRegionNames;
-        public List<string> ListMainRegionNames
-        {
-            get => _listMainRegionNames;
-            set => Set(ref _listMainRegionNames, value);
-        }
-
-        private List<SubRegion> _listSubRegions;
-        public List<SubRegion> ListSubRegions
+        private List<Region> _listSubRegions;
+        public List<Region> ListSubRegions
         {
             get => _listSubRegions;
             set => Set(ref _listSubRegions, value);
         }
 
-        private List<string> _listSubRegionNames;
-        public List<string> ListSubRegionNames
-        {
-            get => _listSubRegionNames;
-            set => Set(ref _listSubRegionNames, value);
-        }
-
-        private List<string> _allRegions;
-        public List<string> AllRegions
+        private List<Region> _allRegions;
+        public List<Region> AllRegions
         {
             get => _allRegions;
             set => Set(ref _allRegions, value);
@@ -81,13 +59,6 @@ namespace AutoRuScrapper.ViewModels
             set => Set(ref _title, value);
         }
 
-        //private List<>
-        //public string Title
-        //{
-        //    get => _title;
-        //    set => Set(ref _title, value);
-        //}
-
 
         public MainWindowViewModel()
         {
@@ -96,10 +67,9 @@ namespace AutoRuScrapper.ViewModels
             {
                 string carMarksjson = File.ReadAllText(@"Z:\Programming\ProjectC#\AutoRuScrapper\Data\Car\Marks.json");
                 ListMarkCars? listMarkCars = JsonConvert.DeserializeObject<ListMarkCars>(carMarksjson);
-                ListMarks = listMarkCars.Marks;
 
-                if (ListMarks != null)
-                    ListMarkNames = ListMarks.Select(mark => mark.Name).ToList();
+                if (listMarkCars?.Marks != null)
+                    ListMarks = listMarkCars.Marks;
             }
             catch (Exception ex)
             {
@@ -114,23 +84,21 @@ namespace AutoRuScrapper.ViewModels
                 #region Основные регионы
                 string mainRegionjson = File.ReadAllText(@"Z:\Programming\ProjectC#\AutoRuScrapper\Data\Regions\MainRegions.json");
                 ListMainRegions? listMainRegions = JsonConvert.DeserializeObject<ListMainRegions>(mainRegionjson);
-                ListMainRegions = listMainRegions.MainRegions;
 
-                if (ListMainRegions != null)
-                    ListMainRegionNames = ListMainRegions.Select(mark => mark.Title).ToList();
+                if(listMainRegions?.MainRegions != null)
+                ListMainRegions = listMainRegions.MainRegions;
                 #endregion
 
                 #region Области
                 string subRegionjson = File.ReadAllText(@"Z:\Programming\ProjectC#\AutoRuScrapper\Data\Regions\SubRegions.json");
                 ListSubRegions? listSubRegions = JsonConvert.DeserializeObject<ListSubRegions>(subRegionjson);
-                ListSubRegions = listSubRegions.SubRegions;
-
-                ListSubRegionNames = ListSubRegions.Select(mark => mark.Title).ToList();
-
+                
+                if (listSubRegions?.SubRegions != null)
+                    ListSubRegions = listSubRegions.SubRegions;
                 #endregion
 
-                // Объядения регионы
-                AllRegions = ListMainRegionNames.Concat(ListSubRegionNames).ToList();
+                // Объяденяю регионы
+                AllRegions = ListMainRegions.Concat(ListSubRegions).ToList();
             }
             catch (Exception)
             {
