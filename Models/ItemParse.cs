@@ -17,10 +17,7 @@ namespace AutoRuScrapper.Models
         public string ParsingUrl { get; set; }
         public bool IsActive { get; set; } = false;
         public string UrlParse { get; set; }
-        public List<string> ListMarks { get; set; }
-        public Mark SelectedMark { get; set; }
-        public List<Region> AllRegions { get; set; }
-        public Region SelectedRegion { get; set; }
+
         public ItemParse() { }
 
         public ItemParse(string mark, string model, DateTime yearOfProduction, string region, DateTime startTime, string parsingUrl, bool isActive, string urlParse)

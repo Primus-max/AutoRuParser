@@ -54,7 +54,7 @@ namespace AutoRuScrapper
             var newItem = (FrameworkElement)template.LoadContent();
             var itemParse = new ItemParse { UrlParse = RandomId };
             //newItem.DataContext = itemParse;
-            StackPanel gridContainer = (StackPanel)FindName("ParsingListGrid");
+            StackPanel gridContainer = (StackPanel)FindName("ParsingListParent");
             gridContainer.Children.Add(newItem);
         }
     }

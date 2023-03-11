@@ -26,7 +26,7 @@
     <Window.Resources>
         <DataTemplate x:Key="ParsingItemTemplate">
             <Border Padding="5 7 5 7"
-                    Margin="0 0 0 30">
+                    Margin="0 0 0 10">
                 <materialDesign:Card>
                     <StackPanel>
                         <Expander HorizontalAlignment="Stretch">
@@ -176,9 +176,12 @@
                             </Button>
                         </StackPanel>
 
-                        <StackPanel x:Name="ParsingListGrid">
+                        <ScrollViewer  Height="600" >
+                            <StackPanel x:Name="ParsingListParent" Margin="0 0 0 40">
+                                <!-- Ваши элементы Datatemplate -->
+                            </StackPanel>
+                        </ScrollViewer>
 
-                        </StackPanel>
 
                     </StackPanel>
                 </TabItem>
