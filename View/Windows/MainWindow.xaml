@@ -34,7 +34,7 @@
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="73*" />
-                                        <ColumnDefinition Width="10*"/>
+                                        <ColumnDefinition Width="15*"/>
                                     </Grid.ColumnDefinitions>
                                     <StackPanel
                                         Grid.Column="0"
@@ -46,7 +46,12 @@
                                         <TextBlock Text="Модель: " Margin="5 0 10 0" VerticalAlignment="Center"/>
                                         <TextBlock Text="M 1" Margin="5 0 10 0" VerticalAlignment="Center"/>
                                     </StackPanel>
-                                    <Button Grid.Column="1"
+                                    <StackPanel
+                                        Grid.Column="1"
+                                        Orientation="Horizontal"
+                                        HorizontalAlignment="Center">
+                                        <Button
+                                            Margin="0 0 7 0"
                                             Width="25"
                                             Height="25"
                                             Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
@@ -54,8 +59,21 @@
                                             materialDesign:ButtonProgressAssist.Value="20"
                                             materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
                                             Background="Transparent" >
-                                        <materialDesign:PackIcon Kind="Play" Height="17" Width="17" Foreground="Black"/>
-                                    </Button>
+                                            <materialDesign:PackIcon Kind="Play" Height="17" Width="17" Foreground="Black"/>
+                                        </Button>
+
+                                        <Button
+                                            Margin="9 0 0 0"
+                                            Width="25"
+                                            Height="25"
+                                            Background="Transparent"
+                                            Style="{StaticResource  MaterialDesignIconButton}"
+                                            ToolTip="Удалить парсер">
+                                            <materialDesign:PackIcon
+                                                Kind="Delete"
+                                                Foreground="DarkRed"/>
+                                        </Button>
+                                    </StackPanel>
                                 </Grid>
                             </Expander.Header>
                             <Border Padding="40 0 0 0">
@@ -140,7 +158,6 @@
                                     </StackPanel>
                                 </StackPanel>
                             </Border>
-
                         </Expander>
                         <Border Style="{StaticResource MaterialDesignToolBarMainPanelBorderStyle}" />
                     </StackPanel>
