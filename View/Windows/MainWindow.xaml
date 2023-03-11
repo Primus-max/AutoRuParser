@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoRuScrapper"
+        xmlns:dt="clr-namespace:AutoRuScrapper.Models"
         xmlns:dc="clr-namespace:AutoRuScrapper.ViewModels"
         mc:Ignorable="d"
 
@@ -64,6 +65,7 @@
                                         Orientation="Horizontal"
                                         TextBlock.Foreground="{DynamicResource MaterialDesignBody}" >
                                         <ComboBox
+                                            Width="220"
                                             Margin="0"
                                             Padding="5 0 0 5"
                                             Style="{StaticResource MaterialDesignFilledComboBox}"
@@ -73,7 +75,7 @@
                                             DisplayMemberPath="Name"
                                             SelectedItem="{Binding SelectedMark}"
                                             materialDesign:TextFieldAssist.HasClearButton="True"
-                                            Width="220" >
+                                            >
                                         </ComboBox>
                                         <ComboBox
                                             Margin="30 0 0 0"
@@ -163,10 +165,9 @@
                             <Button
                                 Margin="10,0,0,0"
                                 HorizontalAlignment="Left"
-                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton }"
+                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
                                 ToolTip="Создать новый парсер"
                                 Background="Transparent" Click="CreateItem_Click" >
-
                                 <materialDesign:PackIcon
                                     Kind="Plus"
                                     Height="30"
@@ -175,9 +176,9 @@
                             </Button>
                         </StackPanel>
 
-                        <Grid x:Name="ParsingListGrid">
-                            <TextBlock Text="{Binding SelectedRegion}"></TextBlock>
-                        </Grid>
+                        <StackPanel x:Name="ParsingListGrid">
+
+                        </StackPanel>
 
                     </StackPanel>
                 </TabItem>

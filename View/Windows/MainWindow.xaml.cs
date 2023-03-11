@@ -30,20 +30,32 @@ namespace AutoRuScrapper
 
         private void CreateItem_Click(object sender, RoutedEventArgs e)
         {
-            // Создаем новый элемент, используя шаблон
-            DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
-            FrameworkElement newItem = (FrameworkElement)template.LoadContent();
-            // Создаем новый экземпляр объекта
+            Guid guid = Guid.NewGuid();
+            string RandomId = guid.ToString();
+
+            //ItemParse itemParse = new ItemParse() { UrlParse = RandomId };
+
+            //// Создаем новый элемент, используя шаблон
+            //DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
+            ////FrameworkElement newItem = (FrameworkElement)template.LoadContent();
+            //// Создаем новый экземпляр объекта
             //var newItem = (FrameworkElement)Activator.CreateInstance((Type)template.DataType);
 
-            // Находим нужный контейнер на форме, в который будем добавлять новый элемент
-            Grid gridContainer = (Grid)FindName("ParsingListGrid");
+            //// Находим нужный контейнер на форме, в который будем добавлять новый элемент
+            //Grid gridContainer = (Grid)FindName("ParsingListGrid");
 
-            // Добавляем новый элемент в контейнер
+            //// Добавляем новый элемент в контейнер
+            //gridContainer.Children.Add(newItem);
+
+            //// Устанавливаем новый контекст данных для элемента
+            ////newItem.DataContext = new YourViewModel();
+
+            DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
+            var newItem = (FrameworkElement)template.LoadContent();
+            var itemParse = new ItemParse { UrlParse = RandomId };
+            //newItem.DataContext = itemParse;
+            StackPanel gridContainer = (StackPanel)FindName("ParsingListGrid");
             gridContainer.Children.Add(newItem);
-
-            // Устанавливаем новый контекст данных для элемента
-            //newItem.DataContext = new YourViewModel();
         }
     }
 }
