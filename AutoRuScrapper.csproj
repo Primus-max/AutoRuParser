@@ -19,6 +19,18 @@
 		<Reference Include="AngleSharp">
 			<HintPath>C:\Users\SKTV-1\.nuget\packages\anglesharp\0.17.1\lib\netstandard2.0\AngleSharp.dll</HintPath>
 		</Reference>
+		<Reference Include="Microsoft.Net.Http.Headers">
+		  <HintPath>..\PupeTest\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+		  <HintPath>..\PupeTest\bin\Debug\net6.0\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="PuppeteerExtraSharp">
+		  <HintPath>..\PupeTest\bin\Debug\net6.0\PuppeteerExtraSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="PuppeteerSharp">
+		  <HintPath>..\PupeTest\bin\Debug\net6.0\PuppeteerSharp.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 	<ItemGroup>

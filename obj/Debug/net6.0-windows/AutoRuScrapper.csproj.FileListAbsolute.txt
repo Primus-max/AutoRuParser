@@ -34,3 +34,13 @@ Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\GeneratedIntern
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Net.Http.Headers.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\PuppeteerExtraSharp.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\PuppeteerSharp.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\RestSharp.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.AspNetCore.WebUtilities.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
