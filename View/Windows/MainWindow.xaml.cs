@@ -1,5 +1,7 @@
 ﻿using AutoRuScrapper.Models;
+using AutoRuScrapper.Resources;
 using AutoRuScrapper.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,7 +28,10 @@ namespace AutoRuScrapper
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+
 
         private void CreateItem_Click(object sender, RoutedEventArgs e)
         {
@@ -57,10 +62,6 @@ namespace AutoRuScrapper
             StackPanel gridContainer = (StackPanel)FindName("ParsingListParent");
             gridContainer.Children.Add(newItem);
         }
-        MainWindowViewModel main = new MainWindowViewModel();
-        private void Test_Click(object sender, RoutedEventArgs e)
-        {
-            string Url = main.PareserUrl;
-        }
+
     }
 }

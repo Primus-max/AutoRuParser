@@ -1,21 +1,27 @@
-﻿using AutoRuScrapper.Models;
+﻿using AutoRuScrapper.Commands;
+using AutoRuScrapper.Models;
+using AutoRuScrapper.Resources;
 using AutoRuScrapper.ViewModels.Base;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel.Design;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace AutoRuScrapper.ViewModels
 {
     internal class MainWindowViewModel : BaseViewModel
     {
-
         #region Марки машин
         private Mark _selectedMark;
         public Mark SelectedMark
@@ -89,8 +95,23 @@ namespace AutoRuScrapper.ViewModels
         #endregion
 
 
+
+        #region Комманды
+        public ICommand StartParserCommand { get; }
+
+        private bool CanStartParserCommandExecute(object p) => true;
+        public void OnStartParserCommandExecuted(object p)
+        {
+            MessageBox.Show("START!");
+        }
+
+
+        #endregion
+
+
         public MainWindowViewModel()
         {
+
             #region Добавляю список марок машин
             try
             {
@@ -131,13 +152,17 @@ namespace AutoRuScrapper.ViewModels
             }
             catch (Exception)
             {
-
                 throw;
             }
 
             #endregion
 
             #region Создание и добавление парсера
+            #endregion
+
+            #region Вызов комманд
+            StartParserCommand = new LambdaCommand(OnStartParserCommandExecuted, CanStartParserCommandExecute);
+
             #endregion
         }
     }
