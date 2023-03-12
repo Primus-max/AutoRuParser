@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AutoRuScrapper.Models
 {
-    public class ItemParse
+    public class ItemParser
     {
         public int Id { get; set; }
         public string Mark { get; set; }
@@ -18,9 +18,9 @@ namespace AutoRuScrapper.Models
         public bool IsActive { get; set; } = false;
         public string UrlParse { get; set; }
 
-        public ItemParse() { }
+        public ItemParser() { }
 
-        public ItemParse(string mark, string model, DateTime yearOfProduction, string region, DateTime startTime, string parsingUrl, bool isActive, string urlParse)
+        public ItemParser(string mark, string model, DateTime yearOfProduction, string region, DateTime startTime, string parsingUrl, bool isActive, string urlParse)
         {
             this.Mark = mark;
             this.Model = model;

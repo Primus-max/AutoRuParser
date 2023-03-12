@@ -52,10 +52,15 @@ namespace AutoRuScrapper
 
             DataTemplate template = (DataTemplate)FindResource("ParsingItemTemplate");
             var newItem = (FrameworkElement)template.LoadContent();
-            var itemParse = new ItemParse { UrlParse = RandomId };
+            var itemParse = new ItemParser { UrlParse = RandomId };
             //newItem.DataContext = itemParse;
             StackPanel gridContainer = (StackPanel)FindName("ParsingListParent");
             gridContainer.Children.Add(newItem);
+        }
+        MainWindowViewModel main = new MainWindowViewModel();
+        private void Test_Click(object sender, RoutedEventArgs e)
+        {
+            string Url = main.PareserUrl;
         }
     }
 }

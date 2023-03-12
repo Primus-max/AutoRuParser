@@ -58,8 +58,12 @@
                                             materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
                                             materialDesign:ButtonProgressAssist.Value="20"
                                             materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
-                                            Background="Transparent" >
-                                            <materialDesign:PackIcon Kind="Play" Height="17" Width="17" Foreground="Black"/>
+                                            Background="Transparent" Click="Test_Click"
+                                            >
+                                            <materialDesign:PackIcon Kind="Play"
+                                                                     Height="17"
+                                                                     Width="17"
+                                                                     Foreground="Black"/>
                                         </Button>
 
                                         <Button
@@ -140,7 +144,8 @@
                                     <StackPanel HorizontalAlignment="Left">
                                         <TextBox
                                             Width="300"
-                                            materialDesign:HintAssist.Hint="Прямая ссылка" />
+                                            materialDesign:HintAssist.Hint="Прямая ссылка"
+                                            Text="{Binding PareserUrl}" />
                                     </StackPanel>
 
                                     <StackPanel Margin="0 20 0 20 "

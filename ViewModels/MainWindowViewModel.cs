@@ -72,6 +72,22 @@ namespace AutoRuScrapper.ViewModels
             set => Set(ref _title, value);
         }
 
+        #region Парсер
+        private string _pareserUrl;
+        public string PareserUrl
+        {
+            get => _pareserUrl;
+            set => Set(ref _pareserUrl, value);
+        }
+
+        private List<ItemParser> _itemParsers;
+        public List<ItemParser> ItemParsers
+        {
+            get => _itemParsers;
+            set => Set(ref _itemParsers, value);
+        }
+        #endregion
+
 
         public MainWindowViewModel()
         {
@@ -119,6 +135,9 @@ namespace AutoRuScrapper.ViewModels
                 throw;
             }
 
+            #endregion
+
+            #region Создание и добавление парсера
             #endregion
         }
     }
