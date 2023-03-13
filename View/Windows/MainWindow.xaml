@@ -19,10 +19,8 @@
 
         Title="{Binding Title}"
         Height="700"
-        Width="620">
-    <Window.DataContext>
-        <dc:MainWindowViewModel />
-    </Window.DataContext>
+        Width="620" Loaded="Window_Loaded">
+
     <Window.Resources>
         <DataTemplate x:Key="ParsingItemTemplate">
             <Border Padding="5 7 5 7"
@@ -59,7 +57,7 @@
                                             materialDesign:ButtonProgressAssist.Value="20"
                                             materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
                                             Background="Transparent"
-                                            Command="{Binding StartParserCommand}">
+                                            Click="StartParser_Click">
                                             <materialDesign:PackIcon Kind="Play"
                                                                      Height="17"
                                                                      Width="17"
@@ -142,10 +140,13 @@
                                         </ComboBox>
                                     </StackPanel>
                                     <StackPanel HorizontalAlignment="Left">
+
                                         <TextBox
+                                            x:Name="TextParserUrl"
+                                            Text="{Binding ParserUrl}"
                                             Width="300"
-                                            materialDesign:HintAssist.Hint="Прямая ссылка"
-                                            Text="{Binding PareserUrl}" />
+                                            materialDesign:HintAssist.Hint="Прямая ссылка" />
+
                                     </StackPanel>
 
                                     <StackPanel Margin="0 20 0 20 "

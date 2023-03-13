@@ -30,7 +30,6 @@ Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\App.baml
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\Resources\Base.baml
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\View\Windows\MainWindow.g.cs
 Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\View\Windows\MainWindow.baml
-Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -44,3 +43,4 @@ Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Bcl.A
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.AspNetCore.WebUtilities.dll
 Z:\Programming\ProjectC#\AutoRuScrapper\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+Z:\Programming\ProjectC#\AutoRuScrapper\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
