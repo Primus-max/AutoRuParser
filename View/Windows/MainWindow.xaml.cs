@@ -83,6 +83,8 @@ namespace AutoRuScrapper
 
         #endregion
 
+        public List<ItemParser> Parsers = new List<ItemParser>();
+
         private string _pareserUrl;
         public string ParserUrl
         {
@@ -122,9 +124,18 @@ namespace AutoRuScrapper
 
         private void StartParser_Click(object sender, RoutedEventArgs e)
         {
-            Mark mark = SelectedMark;
-            Region region = SelectedRegion;
-            string asdf = ParserUrl;
+            ItemParser newParser = new ItemParser();
+
+            Random random = new Random();
+
+
+            newParser.Id = random.Next(1, 1000);
+            newParser.UrlParse = ParserUrl;
+            newParser.CarMark = SelectedMark;
+            newParser.SaerchRegion = SelectedRegion;
+
+
+            Parsers.Add(newParser);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

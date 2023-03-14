@@ -9,9 +9,9 @@ namespace AutoRuScrapper.Models
     public class ItemParser
     {
         public int Id { get; set; }
-        public string Mark { get; set; }
+        public Mark CarMark { get; set; }
         public string Model { get; set; }
-        public string Region { get; set; }
+        public Region SaerchRegion { get; set; }
         public DateTime YearOfProduction { get; set; }
         public DateTime StartTime { get; set; }
         public string ParsingUrl { get; set; }
@@ -20,11 +20,11 @@ namespace AutoRuScrapper.Models
 
         public ItemParser() { }
 
-        public ItemParser(string mark, string model, DateTime yearOfProduction, string region, DateTime startTime, string parsingUrl, bool isActive, string urlParse)
+        public ItemParser(Mark mark, string model, DateTime yearOfProduction, Region region, DateTime startTime, string parsingUrl, bool isActive, string urlParse)
         {
-            this.Mark = mark;
+            this.CarMark = mark;
             this.Model = model;
-            this.Region = region;
+            this.SaerchRegion = region;
             this.StartTime = startTime;
             this.ParsingUrl = parsingUrl;
             this.IsActive = isActive;

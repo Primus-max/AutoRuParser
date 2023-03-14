@@ -57,7 +57,8 @@
                                             materialDesign:ButtonProgressAssist.Value="20"
                                             materialDesign:ButtonProgressAssist.IndicatorForeground="Green"
                                             Background="Transparent"
-                                            Click="StartParser_Click">
+                                            Click="StartParser_Click"
+                                            >
                                             <materialDesign:PackIcon Kind="Play"
                                                                      Height="17"
                                                                      Width="17"
